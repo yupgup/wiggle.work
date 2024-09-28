@@ -2,7 +2,10 @@
 <html lang="{{ metadata.language }}">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
 
@@ -10,27 +13,14 @@
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
 
-    {#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
-    {#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:400,700,800&amp;subset=latin">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
 
-    {#-
-    CSS bundles are provided via the `eleventy-plugin-bundle` plugin:
-    1. You can add to them using `{% css %}`
-    2. You can get from them using `{% getBundle "css" %}` or `{% getBundleFileUrl "css" %}`
-    3. You can do the same for JS: {% js %}{% endjs %} and <script>{% getBundle "js" %}</script>
-    4. Learn more: https://github.com/11ty/eleventy-plugin-bundle
-    #}
-
-    {#- Add the contents of a file to the bundle #}
-    {%- css %}{% include "public/css/index.css" %}{% endcss %}
-    {#- Or add from node_modules #}
-
-    {#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
-    <style>{% getBundle "css" %}</style>
-    {#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
-    {#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>
   </head>
-  <body>
+  <body class="antialiased bg-body text-body font-body">
     <a href="#skip" class="visually-hidden">Skip to main content</a>
 
     <header>
@@ -51,8 +41,8 @@
       {{ content | safe }}
     </main>
 
-    <footer></footer>
-
-    <!-- This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %} -->
+    <!--
+      This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %}
+    -->
   </body>
 </html>

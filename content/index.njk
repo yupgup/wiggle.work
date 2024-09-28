@@ -5,6 +5,584 @@ eleventyNavigation:
   order: 1
 numberOfLatestPostsToShow: 3
 ---
+<section x-data="{ mobileNavOpen: false }">
+  <div class="relative">
+    <div class="container mx-auto px-4">
+      <div class="max-w-lg xl:max-w-xl mx-auto lg:mx-0 pt-12 pb-28 lg:py-24">
+        <div class="flex mb-6 items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="15" viewbox="0 0 80 70" fill="none" class="">
+            <g clip-path="url(#clip0_550_42)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0857 -1.56313e-05C16.9428 0.199415 14.0285 0.968645 11.4 2.33617C7.68567 4.245 4.77138 7.094 2.71424 10.7692C1.14281 13.6182 0.342807 16.2108 0.0570926 19.2592C-0.0286217 20.3134 -0.0286217 21.9658 0.114235 23.1339C0.342807 25.3276 0.971379 27.6353 1.88566 29.6866C2.79995 31.7379 4.19995 33.9031 5.68566 35.4986C6.22852 36.0969 38.2 69.2592 38.3428 69.4017C39 70 40.0285 70.1709 40.9142 69.829C41.4285 69.6296 40.4285 70.6553 57.1714 53.2479C65.7142 44.359 73.1428 36.6667 73.6285 36.1823C74.5428 35.2706 74.9714 34.7578 75.4571 34.188C77.6857 31.396 79.1428 28.2621 79.7142 24.7863C79.9142 23.6182 80 22.5071 80.0285 21.0256C80.0285 20.4843 80.0285 20.1424 80.0285 20.2564C80.0285 20.4843 80.0285 20.4843 79.9714 20.057C79.8571 18.0912 79.4 15.8974 78.6857 13.9601C76.8 8.91737 73.4285 4.98574 68.8285 2.5356C66.5428 1.31053 63.9142 0.484315 61.2857 0.142435C60.1428 -1.56276e-05 58.4 -0.0569957 57.3428 -1.56313e-05C52.7142 0.284885 48.4571 1.9658 44.9714 4.84329C44.2571 5.44158 44.0285 5.6695 42 7.69229L39.9714 9.68659L38.1142 7.80625C35.5714 5.27064 34.8571 4.64386 33.2285 3.56124C30.1714 1.62392 26.8285 0.427335 23.1428 0.0854545C22.6571 0.0284744 20.5714 -1.56332e-05 20.0857 0.0284744" fill="#FC9822"></path>
+            </g>
+            <defs>
+              <clippath id="clip0_550_42">
+                <rect width="80" height="70" fill="white"></rect>
+              </clippath>
+            </defs>
+          </svg>
+          <span class="ml-2 text-sm font-medium">Welcome, Wiggler</span>
+        </div>
+        <h1 class="font-heading text-5xl xs:text-7xl xl:text-8xl tracking-tight mb-8">Your remote work friends</h1>
+        <p class="max-w-md xl:max-w-none text-lg mb-10 text-teal-900 text-teal-900">Wiggle Work is a Discord community for remote tech workers (and adjacent) to feel less isolated by connecting in a genuine, less business-bear space.</p>
+        <div class="flex flex-col sm:flex-row">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7L2T02FfqvNCeNwqk3ZwvEMz72GjkTzId2XN3evNO15ppYg/viewform" class="inline-flex py-4 px-6 mb-3 sm:mb-0 sm:mr-4 items-center justify-center text-lg font-medium text-white border bg-teal-900 rounded-full transition duration-200 hover:bg-teal-600">Apply</a>
+          <a href="#" class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium hover:text-white rounded-full transition duration-200 border-teal-900 border text-teal-900 hover:bg-teal-900">View Code of Conduct</a>
+        </div>
+      </div>
+    </div>
+    <div class="hidden lg:flex items-center justify-center absolute top-0 right-0 h-full max-w-lg xl:max-w-none xl:w-2/5 p-3 ml-auto">
+      <img class="absolute bottom-0 left-0 -ml-16" src="../..//flow-assets/headers/card-small.png" alt="">
+      <img class="block xl:h-full mx-auto" src="images/wiggle.png" alt="">
+    </div>
+    <div class="relative flex lg:hidden p-3 bg-lime-500 items-center justify-center">
+      <img class="absolute top-0 right-0 -mt-16" src="../..//flow-assets/headers/card-small.png" alt="">
+      <img class="block w-full max-w-2xl h-auto rounded-full" src="flow-assets/headers/image-hero-1.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="p-4 bg-white" id="Benefits">
+  <div class="pt-16 pb-24 px-5 xs:px-8 xl:px-12 bg-teal-900 rounded-3xl">
+    <div class="container mx-auto px-4">
+      <div class="flex mb-4 items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="15" viewbox="0 0 80 70" fill="none" class="">
+          <g clip-path="url(#clip0_550_42)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0857 -1.56313e-05C16.9428 0.199415 14.0285 0.968645 11.4 2.33617C7.68567 4.245 4.77138 7.094 2.71424 10.7692C1.14281 13.6182 0.342807 16.2108 0.0570926 19.2592C-0.0286217 20.3134 -0.0286217 21.9658 0.114235 23.1339C0.342807 25.3276 0.971379 27.6353 1.88566 29.6866C2.79995 31.7379 4.19995 33.9031 5.68566 35.4986C6.22852 36.0969 38.2 69.2592 38.3428 69.4017C39 70 40.0285 70.1709 40.9142 69.829C41.4285 69.6296 40.4285 70.6553 57.1714 53.2479C65.7142 44.359 73.1428 36.6667 73.6285 36.1823C74.5428 35.2706 74.9714 34.7578 75.4571 34.188C77.6857 31.396 79.1428 28.2621 79.7142 24.7863C79.9142 23.6182 80 22.5071 80.0285 21.0256C80.0285 20.4843 80.0285 20.1424 80.0285 20.2564C80.0285 20.4843 80.0285 20.4843 79.9714 20.057C79.8571 18.0912 79.4 15.8974 78.6857 13.9601C76.8 8.91737 73.4285 4.98574 68.8285 2.5356C66.5428 1.31053 63.9142 0.484315 61.2857 0.142435C60.1428 -1.56276e-05 58.4 -0.0569957 57.3428 -1.56313e-05C52.7142 0.284885 48.4571 1.9658 44.9714 4.84329C44.2571 5.44158 44.0285 5.6695 42 7.69229L39.9714 9.68659L38.1142 7.80625C35.5714 5.27064 34.8571 4.64386 33.2285 3.56124C30.1714 1.62392 26.8285 0.427335 23.1428 0.0854545C22.6571 0.0284744 20.5714 -1.56332e-05 20.0857 0.0284744" fill="#FC9822"></path>
+          </g>
+          <defs>
+            <clippath id="clip0_550_42">
+              <rect width="80" height="70" fill="white"></rect>
+            </clippath>
+          </defs>
+        </svg>
+        <span class="inline-block ml-2 text-sm font-medium text-white">Best Benefits</span>
+      </div>
+      <div class="border-t border-white border-opacity-25 pt-14">
+        <h1 class="font-heading text-4xl sm:text-6xl text-white mb-24">Together, we fill the existing gaps in the remote working lifestyle.</h1>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-12 lg:mb-0">
+            <div class="flex flex-col h-full">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 48 48" fill="none" class="">
+                <g clip-path="url(#clip0_785_46)">
+                  <rect width="48" height="48" rx="5" fill="#FC9822"></rect>
+                  <g clip-path="url(#clip1_785_46)">
+                    <path d="M24 5C13.5093 5 5 13.5093 5 24C5 34.4907 13.5093 43 24 43C34.4907 43 43 34.4907 43 24C43 13.5093 34.4907 5 24 5ZM24 39.8379C15.26 39.8379 8.16214 32.7536 8.16214 24C8.16214 15.26 15.2464 8.16214 24 8.16214C32.74 8.16214 39.8379 15.2464 39.8379 24C39.8379 32.7536 32.7536 39.8379 24 39.8379Z" fill="#413E98"></path>
+                    <path d="M19.3723 20.675C19.6302 21.2586 20.2002 21.625 20.8245 21.625C21.0416 21.625 21.2588 21.5843 21.4623 21.5029C22.263 21.15 22.6295 20.2272 22.2902 19.4265C21.0688 16.6172 17.8116 15.3279 15.0023 16.5493C13.713 17.1057 12.6816 18.1372 12.1252 19.4265C11.7723 20.2272 12.1252 21.15 12.9123 21.5165C13.713 21.8693 14.6495 21.5165 15.0023 20.7157C15.0023 20.7157 15.0023 20.7022 15.0023 20.6886C15.5316 19.4807 16.9295 18.9379 18.1238 19.4672C18.6666 19.7115 19.1145 20.1457 19.3452 20.6886L19.3723 20.675Z" fill="#413E98"></path>
+                    <path d="M35.8753 19.4128C34.6539 16.6036 31.3967 15.3143 28.5875 16.5357C27.2982 17.0921 26.2667 18.1236 25.7103 19.4128C25.3575 20.2136 25.7239 21.15 26.5382 21.5028C27.3389 21.8557 28.2753 21.4893 28.6282 20.675C29.1575 19.4671 30.5553 18.9243 31.7496 19.4536C32.2925 19.6978 32.7403 20.1321 32.971 20.675C33.2153 21.245 33.7853 21.625 34.4096 21.625C34.6267 21.625 34.8439 21.5843 35.0475 21.5028C35.8482 21.15 36.2146 20.2271 35.8753 19.4264V19.4128Z" fill="#413E98"></path>
+                    <path d="M31.1117 27.3793C30.3517 26.9586 29.3881 27.2164 28.9538 27.9764C27.9903 29.8493 26.1039 31.0571 24.0003 31.1386C21.8967 31.0571 19.9967 29.8493 19.0467 27.9764C18.6124 27.2164 17.6353 26.9586 16.8753 27.3928C16.1153 27.8271 15.8574 28.8043 16.2917 29.5643C17.7981 32.4414 20.7567 34.26 24.0003 34.3143C27.2439 34.26 30.2024 32.4414 31.7089 29.5643C32.1567 28.8043 31.8989 27.8407 31.1389 27.3928C31.1389 27.3928 31.1117 27.3928 31.1117 27.3793Z" fill="#413E98"></path>
+                  </g>
+                </g>
+                <defs>
+                  <clippath id="clip0_785_46">
+                    <rect width="48" height="48" fill="white"></rect>
+                  </clippath>
+                  <clippath id="clip1_785_46">
+                    <rect width="38" height="38" fill="white" transform="translate(5 5)"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+              <h5 class="text-2xl font-medium text-white mt-6 mb-3">Combat Loneliness</h5>
+              <p class="text-white opacity-80 mb-6">While there are many benefits to remote work, the isolation and loneliness that many experience is very real. Join new friends for video calls, distractions, professional development, and just hang out with us in Discord all day.</p>
+            </div>
+          </div>
+          <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-12 lg:mb-0">
+            <div class="flex flex-col h-full">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 48 48" fill="none" class="">
+                <g clip-path="url(#clip0_785_47)">
+                  <rect width="48" height="48" rx="5" fill="#FC9822"></rect>
+                  <path d="M23.9797 5C13.5137 5 5 12.6163 5 22.0272C5.04067 26.3751 6.80307 30.4897 9.83981 33.364L6.4777 40.528C6.17945 41.1845 6.28791 41.9724 6.7624 42.4831C7.23689 43.0083 7.9554 43.1397 8.56547 42.8478L18.0553 38.0913C19.9939 38.6604 22.0004 38.9522 24.0203 38.9376C34.4863 38.9376 43 31.3213 43 21.9104C43 12.4995 34.4456 5 23.9797 5ZM23.9797 35.538C22.0681 35.538 20.1702 35.2462 18.3535 34.648C17.9875 34.5021 17.5808 34.5021 17.2148 34.648L12.3614 37.1721C12.2258 37.2743 12.0496 37.2743 11.914 37.1721C11.8191 37.0262 11.8191 36.822 11.914 36.676L13.2697 33.7288C13.6086 33.0138 13.4324 32.1384 12.8359 31.6423C9.96183 29.3808 8.22654 25.8061 8.15876 21.9688C8.15876 14.4838 15.2626 8.35582 23.9797 8.35582C32.6968 8.35582 39.8006 14.4255 39.8006 21.9688C39.8006 29.5121 32.6968 35.538 23.9797 35.538Z" fill="#413E98"></path>
+                  <path d="M22 29.5C22 30.8857 22.8914 32 24 32C25.1086 32 26 30.8857 26 29.5C26 28.1143 25.1086 27 24 27C22.8914 27 22 28.1143 22 29.5Z" fill="#413E98"></path>
+                  <path d="M23.9919 13C20.6816 13 18 15.5227 18 18.637C18 19.6147 18.834 20.3993 19.8733 20.3993C20.9126 20.3993 21.7465 19.6147 21.7465 18.637C21.7465 17.4661 22.7602 16.5246 24.0047 16.5367C25.2493 16.5487 26.2501 17.4903 26.2373 18.6611C26.2373 19.494 25.7112 20.2544 24.89 20.5924C23.2221 21.1235 22.1186 22.584 22.1186 24.2377C22.1186 25.2154 22.9526 26 23.9919 26C25.0184 26 25.8652 25.2154 25.8652 24.2377C25.8652 24.1411 25.8652 24.0204 26.3912 23.8152C29.4193 22.572 30.8178 19.2646 29.5091 16.4039C28.5596 14.3398 26.3912 13.0121 24.0047 13.0121L23.9919 13Z" fill="#413E98"></path>
+                </g>
+                <defs>
+                  <clippath id="clip0_785_47">
+                    <rect width="48" height="48" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+              <h5 class="text-2xl font-medium text-white mt-6 mb-3">Get Help</h5>
+              <p class="text-white opacity-80 mb-6">Ask the group any professional or personal questions you may have. It’s a safe, knowledge group of people that are happy to share their experiences and general advice. It's a great group to tap for feedback or recommendations.</p>
+            </div>
+          </div>
+          <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-12 sm:mb-0">
+            <div class="flex flex-col h-full">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 48 48" fill="none" class="">
+                <g clip-path="url(#clip0_785_49)">
+                  <rect width="48" height="48" rx="5" fill="#FC9822"></rect>
+                  <g clip-path="url(#clip1_785_49)">
+                    <path d="M24.7871 14.9886C24.7871 16.305 25.8457 17.3636 27.1621 17.3636C28.4785 17.3636 29.5371 16.305 29.5371 14.9886C29.5371 13.6722 28.4785 12.6136 27.1621 12.6136C25.8457 12.6136 24.7871 13.6722 24.7871 14.9886Z" fill="#413E98"></path>
+                    <path d="M17.6621 14.9886C17.6621 16.305 18.7207 17.3636 20.0371 17.3636C21.3535 17.3636 22.4121 16.305 22.4121 14.9886C22.4121 13.6722 21.3535 12.6136 20.0371 12.6136C18.7207 12.6136 17.6621 13.6722 17.6621 14.9886Z" fill="#413E98"></path>
+                    <path d="M28.75 7.375C28.75 8.69143 29.8086 9.75 31.125 9.75C32.4414 9.75 33.5 8.69143 33.5 7.375C33.5 6.05857 32.4414 5 31.125 5C29.8086 5 28.75 6.05857 28.75 7.375Z" fill="#413E98"></path>
+                    <path d="M14.5 7.375C14.5 8.69143 15.5586 9.75 16.875 9.75C18.1914 9.75 19.25 8.69143 19.25 7.375C19.25 6.05857 18.1914 5 16.875 5C15.5586 5 14.5 6.05857 14.5 7.375Z" fill="#413E98"></path>
+                    <path d="M28.75 40.625C28.75 41.9414 29.8086 43 31.125 43C32.4414 43 33.5 41.9414 33.5 40.625C33.5 39.3086 32.4414 38.25 31.125 38.25C29.8086 38.25 28.75 39.3086 28.75 40.625Z" fill="#413E98"></path>
+                    <path d="M14.5 40.625C14.5 41.9414 15.5586 43 16.875 43C18.1914 43 19.25 41.9414 19.25 40.625C19.25 39.3086 18.1914 38.25 16.875 38.25C15.5586 38.25 14.5 39.3086 14.5 40.625Z" fill="#413E98"></path>
+                    <path d="M38.25 31.125C38.25 32.4414 39.3086 33.5 40.625 33.5C41.9414 33.5 43 32.4414 43 31.125C43 29.8086 41.9414 28.75 40.625 28.75C39.3086 28.75 38.25 29.8086 38.25 31.125Z" fill="#413E98"></path>
+                    <path d="M38.25 16.875C38.25 18.1914 39.3086 19.25 40.625 19.25C41.9414 19.25 43 18.1914 43 16.875C43 15.5586 41.9414 14.5 40.625 14.5C39.3086 14.5 38.25 15.5586 38.25 16.875Z" fill="#413E98"></path>
+                    <path d="M5 31.125C5 32.4414 6.05857 33.5 7.375 33.5C8.69143 33.5 9.75 32.4414 9.75 31.125C9.75 29.8086 8.69143 28.75 7.375 28.75C6.05857 28.75 5 29.8086 5 31.125Z" fill="#413E98"></path>
+                    <path d="M5 16.875C5 18.1914 6.05857 19.25 7.375 19.25C8.69143 19.25 9.75 18.1914 9.75 16.875C9.75 15.5586 8.69143 14.5 7.375 14.5C6.05857 14.5 5 15.5586 5 16.875Z" fill="#413E98"></path>
+                    <path d="M24.7871 32.4007C24.7871 33.7171 25.8457 34.7757 27.1621 34.7757C28.4785 34.7757 29.5371 33.7171 29.5371 32.4007C29.5371 31.0843 28.4785 30.0257 27.1621 30.0257C25.8457 30.0257 24.7871 31.0843 24.7871 32.4007Z" fill="#413E98"></path>
+                    <path d="M17.6621 32.4007C17.6621 33.7171 18.7207 34.7757 20.0371 34.7757C21.3535 34.7757 22.4121 33.7171 22.4121 32.4007C22.4121 31.0843 21.3535 30.0257 20.0371 30.0257C18.7207 30.0257 17.6621 31.0843 17.6621 32.4007Z" fill="#413E98"></path>
+                    <path d="M29.9443 27.2571C29.9443 28.5736 31.0029 29.6321 32.3193 29.6321C33.6358 29.6321 34.6943 28.5736 34.6943 27.2571C34.6943 25.9407 33.6358 24.8821 32.3193 24.8821C31.0029 24.8821 29.9443 25.9407 29.9443 27.2571Z" fill="#413E98"></path>
+                    <path d="M29.9443 20.1321C29.9443 21.4486 31.0029 22.5071 32.3193 22.5071C33.6358 22.5071 34.6943 21.4486 34.6943 20.1321C34.6943 18.8157 33.6358 17.7571 32.3193 17.7571C31.0029 17.7571 29.9443 18.8157 29.9443 20.1321Z" fill="#413E98"></path>
+                    <path d="M12.5186 27.2571C12.5186 28.5736 13.5771 29.6321 14.8936 29.6321C16.21 29.6321 17.2686 28.5736 17.2686 27.2571C17.2686 25.9407 16.21 24.8821 14.8936 24.8821C13.5771 24.8821 12.5186 25.9407 12.5186 27.2571Z" fill="#413E98"></path>
+                    <path d="M12.5186 20.1321C12.5186 21.4486 13.5771 22.5071 14.8936 22.5071C16.21 22.5071 17.2686 21.4486 17.2686 20.1321C17.2686 18.8157 16.21 17.7571 14.8936 17.7571C13.5771 17.7571 12.5186 18.8157 12.5186 20.1321Z" fill="#413E98"></path>
+                  </g>
+                </g>
+                <defs>
+                  <clippath id="clip0_785_49">
+                    <rect width="48" height="48" fill="white"></rect>
+                  </clippath>
+                  <clippath id="clip1_785_49">
+                    <rect width="38" height="38" fill="white" transform="translate(5 5)"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+              <h5 class="text-2xl font-medium text-white mt-6 mb-3">Make Connections</h5>
+              <p class="text-white opacity-80 mb-6">This space is exceptional for folks that are not into traditional networking. Here, you’ll make friends first and professional connections second. The group is comprised of experienced developers, designers, project managers, and more.</p>
+            </div>
+          </div>
+          <div class="w-full sm:w-1/2 lg:w-1/4 px-4">
+            <div class="flex flex-col h-full">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 48 48" fill="none" class="">
+                <g clip-path="url(#clip0_785_51)">
+                  <rect width="48" height="48" rx="5" fill="#FC9822"></rect>
+                  <g clip-path="url(#clip1_785_51)">
+                    <path d="M39.7333 25.8986C37.6433 23.8823 34.3465 23.8823 32.2566 25.8986C31.7562 26.399 30.932 26.399 30.4316 25.8986C29.9312 25.4129 29.9164 24.6035 30.4021 24.103C30.4021 24.103 30.4168 24.0883 30.4316 24.0736C33.4929 21.0123 38.4675 20.9976 41.5289 24.0736C42.044 24.5593 42.0734 25.3688 41.5877 25.8986C41.102 26.4138 40.2926 26.4432 39.7627 25.9575C39.7333 25.9428 39.7186 25.9134 39.7038 25.8986H39.7333Z" fill="#413E98"></path>
+                    <path d="M35.0527 31.0057C35.0527 31.7711 35.6709 32.4039 36.4362 32.4039C37.2015 32.4039 37.8344 31.7858 37.8344 31.0205C37.8344 30.2551 37.2163 29.6223 36.4509 29.6223C35.6856 29.6223 35.0527 30.2404 35.0527 31.0057Z" fill="#413E98"></path>
+                    <path d="M22.1019 17.5536C21.6015 17.0532 21.6015 16.229 22.1019 15.7286C24.1624 13.668 24.1624 10.3271 22.1019 8.26658C21.6162 7.75145 21.6456 6.92725 22.1607 6.44156C22.6611 5.9853 23.4265 5.9853 23.9122 6.44156C26.9735 9.50288 26.9882 14.4775 23.9122 17.5389C23.4265 18.0393 22.617 18.054 22.1166 17.5683C22.1166 17.5683 22.1019 17.5536 22.0872 17.5389L22.1019 17.5536Z" fill="#413E98"></path>
+                    <path d="M15.6104 11.5634C15.6104 12.3287 16.2285 12.9616 17.0086 12.9616C17.7886 12.9616 18.392 12.3434 18.392 11.5634C18.392 10.7833 17.7739 10.1652 17.0086 10.1652C16.2432 10.1652 15.6104 10.7833 15.6104 11.5634Z" fill="#413E98"></path>
+                    <path d="M39.2188 7.3982C39.2188 8.16353 39.8369 8.7964 40.6022 8.7964C41.3676 8.7964 42.0004 8.17825 42.0004 7.41292C42.0004 6.61815 41.3823 6 40.617 6C39.8516 6 39.2188 6.61815 39.2188 7.38348" fill="#413E98"></path>
+                    <path d="M38.7617 17.112C38.7617 17.8773 39.3799 18.5102 40.1452 18.5102C40.9105 18.5102 41.5434 17.892 41.5434 17.1267C41.5434 16.3614 40.9252 15.7285 40.1599 15.7285C39.3946 15.7285 38.7617 16.3467 38.7617 17.112Z" fill="#413E98"></path>
+                    <path d="M27.6644 20.3352C27.164 19.8348 27.164 19.0106 27.6644 18.5102L36.451 9.72362C36.9661 9.23792 37.7903 9.26736 38.276 9.78249C38.7322 10.2829 38.7322 11.0482 38.276 11.5339L29.4894 20.3205C28.989 20.8209 28.1648 20.8209 27.6644 20.3205V20.3352Z" fill="#413E98"></path>
+                    <path d="M24.8392 23.1758C21.042 19.3344 15.7288 16.9207 12.9766 19.7465C12.7263 19.982 12.5056 20.2616 12.3584 20.5707C12.2848 20.6149 6.48596 36.0392 6.48596 36.0392C5.64704 37.614 5.92668 39.5568 7.19242 40.8225C8.45816 42.0736 10.3862 42.3679 11.961 41.529L27.356 35.7301C27.7239 35.5683 28.0624 35.3328 28.342 35.0384C31.0943 32.2714 28.6806 26.973 24.8392 23.1758ZM25.6781 32.4481C25.0747 33.0662 21.6012 31.5503 19.0403 29.0188C16.4794 26.4873 14.9635 22.9697 15.6111 22.3663C15.876 22.1014 18.6429 22.2338 22.2783 25.7956C25.5162 29.0188 26.1196 32.0212 25.737 32.4039L25.7075 32.4333L25.6781 32.4481Z" fill="#413E98"></path>
+                  </g>
+                </g>
+                <defs>
+                  <clippath id="clip0_785_51">
+                    <rect width="48" height="48" fill="white"></rect>
+                  </clippath>
+                  <clippath id="clip1_785_51">
+                    <rect width="36" height="36" fill="white" transform="translate(6 6)"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+              <h5 class="text-2xl font-medium text-white mt-6 mb-3">Have Fun</h5>
+              <p class="text-white opacity-80 mb-6">Above all else, Wiggle Work values a casual, welcoming, warm, fun environment. We don’t take ourselves too seriously and are quick to share our favorite things from around the web, talk about LEGO, and host meme competitions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Events" x-data="{ activeSlide: 1, slideCount: 3 }" class="pt-12 lg:pt-24">
+  <div class="container mx-auto px-4">
+    <div class="flex mb-4 items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="15" viewbox="0 0 80 70" fill="none" class="">
+        <g clip-path="url(#clip0_550_42)">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0857 -1.56313e-05C16.9428 0.199415 14.0285 0.968645 11.4 2.33617C7.68567 4.245 4.77138 7.094 2.71424 10.7692C1.14281 13.6182 0.342807 16.2108 0.0570926 19.2592C-0.0286217 20.3134 -0.0286217 21.9658 0.114235 23.1339C0.342807 25.3276 0.971379 27.6353 1.88566 29.6866C2.79995 31.7379 4.19995 33.9031 5.68566 35.4986C6.22852 36.0969 38.2 69.2592 38.3428 69.4017C39 70 40.0285 70.1709 40.9142 69.829C41.4285 69.6296 40.4285 70.6553 57.1714 53.2479C65.7142 44.359 73.1428 36.6667 73.6285 36.1823C74.5428 35.2706 74.9714 34.7578 75.4571 34.188C77.6857 31.396 79.1428 28.2621 79.7142 24.7863C79.9142 23.6182 80 22.5071 80.0285 21.0256C80.0285 20.4843 80.0285 20.1424 80.0285 20.2564C80.0285 20.4843 80.0285 20.4843 79.9714 20.057C79.8571 18.0912 79.4 15.8974 78.6857 13.9601C76.8 8.91737 73.4285 4.98574 68.8285 2.5356C66.5428 1.31053 63.9142 0.484315 61.2857 0.142435C60.1428 -1.56276e-05 58.4 -0.0569957 57.3428 -1.56313e-05C52.7142 0.284885 48.4571 1.9658 44.9714 4.84329C44.2571 5.44158 44.0285 5.6695 42 7.69229L39.9714 9.68659L38.1142 7.80625C35.5714 5.27064 34.8571 4.64386 33.2285 3.56124C30.1714 1.62392 26.8285 0.427335 23.1428 0.0854545C22.6571 0.0284744 20.5714 -1.56332e-05 20.0857 0.0284744" fill="#FC9822"></path>
+        </g>
+        <defs>
+          <clippath id="clip0_550_42">
+            <rect width="80" height="70" fill="white"></rect>
+          </clippath>
+        </defs>
+      </svg>
+      <span class="inline-block ml-2 text-sm font-medium text-teal-900">Chatty Channels, Enticing Events</span>
+    </div>
+    <div class="border-t pt-16">
+      <div>
+        <h1 class="font-heading text-4xl sm:text-5xl md:text-6xl mb-6">What we get into</h1>
+        <p class="text-lg text-gray-700">At Wiggle Work, you can expect daily discussion prompts, regularly scheduled video calls with and without an agenda, book banter, guest presenters, game groups, special weird events, and much more. Members are also free to own and run with their own projects and jump on impromptu coworking calls. Our most popular channels include spaces to share pet pics, post your weekly wins, job search, and talk about snacks.</p>
+      </div>
+    </div>
+  </div>
+  <div class="px-4 pb-4 mt-12 md:mt-24">
+    <div class="py-12 md:py-16 rounded-3xl bg-red-900">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 px-4 mb-16 md:mb-0">
+            <div class="max-w-lg lg:pt-14">
+              <h1 class="font-heading text-4xl sm:text-5xl text-white mb-6">A peek at the happenings</h1>
+              <p class="text-lg text-white opacity-80 mb-10">Here’s a quick look at some of our past events and discussions to get a better feel for what we are all about.</p>
+              <a href="#" class="inline-flex mb-20 py-4 px-6 items-center justify-center text-lg font-medium border border-lime-500 bg-lime-500 rounded-full transition duration-200 text-teal-900 hover:bg-teal-600 hover:text-white hover:border-teal-600">Apply</a>
+              <div>
+                <button x-on:click="activeSlide = activeSlide &gt; 1 ? activeSlide - 1 : slideCount" class="inline-block mr-4 text-white opacity-80 hover:text-lime-500 hover:opacity-100">
+                  <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.4001 16H7.6001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M16.0001 24.4L7.6001 16L16.0001 7.59998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+                <button x-on:click="activeSlide = activeSlide &lt; slideCount ? activeSlide + 1 : 1" class="inline-block text-white opacity-80 hover:text-lime-500 hover:opacity-100">
+                  <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.6001 16H24.4001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M16 7.59998L24.4 16L16 24.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 px-4">
+            <div class="md:w-116 md:h-116 md:ml-auto rounded-2xl overflow-hidden">
+              <div :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'" class="flex -mx-4 transition-transform duration-500" style="transform: translateX(-200%)">
+                <img class="block flex-shrink-0 px-4" src="images/channel-preview.png" alt="">
+                <img class="block flex-shrink-0 w-full px-4" src="images/4576B7A8-ADAA-45C7-AEE9-BA23585E285E-1-105-c.jpeg" alt="">
+                <img class="block flex-shrink-0 w-full px-4" src="images/Whiteboard.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section x-data="{ showContent: false }" class="py-12 lg:py-24 overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="flex mb-4 items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="15" viewbox="0 0 80 70" fill="none" class="">
+        <g clip-path="url(#clip0_550_42)">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0857 -1.56313e-05C16.9428 0.199415 14.0285 0.968645 11.4 2.33617C7.68567 4.245 4.77138 7.094 2.71424 10.7692C1.14281 13.6182 0.342807 16.2108 0.0570926 19.2592C-0.0286217 20.3134 -0.0286217 21.9658 0.114235 23.1339C0.342807 25.3276 0.971379 27.6353 1.88566 29.6866C2.79995 31.7379 4.19995 33.9031 5.68566 35.4986C6.22852 36.0969 38.2 69.2592 38.3428 69.4017C39 70 40.0285 70.1709 40.9142 69.829C41.4285 69.6296 40.4285 70.6553 57.1714 53.2479C65.7142 44.359 73.1428 36.6667 73.6285 36.1823C74.5428 35.2706 74.9714 34.7578 75.4571 34.188C77.6857 31.396 79.1428 28.2621 79.7142 24.7863C79.9142 23.6182 80 22.5071 80.0285 21.0256C80.0285 20.4843 80.0285 20.1424 80.0285 20.2564C80.0285 20.4843 80.0285 20.4843 79.9714 20.057C79.8571 18.0912 79.4 15.8974 78.6857 13.9601C76.8 8.91737 73.4285 4.98574 68.8285 2.5356C66.5428 1.31053 63.9142 0.484315 61.2857 0.142435C60.1428 -1.56276e-05 58.4 -0.0569957 57.3428 -1.56313e-05C52.7142 0.284885 48.4571 1.9658 44.9714 4.84329C44.2571 5.44158 44.0285 5.6695 42 7.69229L39.9714 9.68659L38.1142 7.80625C35.5714 5.27064 34.8571 4.64386 33.2285 3.56124C30.1714 1.62392 26.8285 0.427335 23.1428 0.0854545C22.6571 0.0284744 20.5714 -1.56332e-05 20.0857 0.0284744" fill="#FC9822"></path>
+        </g>
+        <defs>
+          <clippath id="clip0_550_42">
+            <rect width="80" height="70" fill="white"></rect>
+          </clippath>
+        </defs>
+      </svg>
+      <span class="inline-block ml-2 text-sm font-medium text-teal-900">Blog Bonanza </span>
+    </div>
+    <div class="border-t pt-16">
+      <div class="flex flex-wrap items-center justify-between mb-20 -mx-4">
+        <div class="w-full sm:w-2/3 px-4 mb-10 sm:mb-0">
+          <div class="sm:max-w-lg xl:max-w-none">
+            <h1 class="font-heading text-4xl xs:text-6xl">Wicked Wiggly Words</h1>
+          </div>
+        </div>
+        <div class="w-full sm:w-1/3 px-4 sm:text-right">
+          <a x-on:click.prevent="showContent = true" :class="{'hidden': showContent}" href="#" class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-300 hidden text-teal-900">
+            <span class="mr-2">See all</span>
+            <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.75 10H15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M10 4.75L15.25 10L10 15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-20 flex flex-wrap -mx-4">
+      <div class="w-full md:w-1/2 px-4 mb-12 md:mb-0">
+        <a href="#" class="block group">
+          <img class="block w-full h-87 mb-8 rounded-2xl" src="flow-assets/blog/image-post2-1.png" alt="">
+          <div class="pr-8">
+            <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Harnessing the Power of the Sun: Exploring the World of Solar Energy</h4>
+            <p class="text-lg text-gray-700 mb-6">Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar techno...</p>
+            <div class="flex items-center">
+              <img class="w-10 h-10 rounded-full" src="flow-assets/blog/circle-avatar-3.png" alt="">
+              <div class="flex items-center ml-4">
+                <span class="text-sm font-medium">Leslie Alexander</span>
+                <span class="mx-2 sm:mx-4">
+                  <svg width="4" height="4" viewbox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="2" cy="2" r="2" fill="#929C9A"></circle>
+                  </svg>
+                </span>
+                <span class="text-sm font-medium">9 min read</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="w-full md:w-1/2 px-4">
+        <a href="#" class="block group">
+          <img class="block w-full h-87 mb-8 rounded-2xl" src="flow-assets/blog/image-post2-2.png" alt="">
+          <div class="pr-8">
+            <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Wind Power: A Breath of Fresh Air for Clean Energy Enthusiasts</h4>
+            <p class="text-lg text-gray-700 mb-6">Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar techno...</p>
+            <div class="flex items-center">
+              <img class="w-10 h-10 rounded-full" src="flow-assets/blog/circle-avatar-1.png" alt="">
+              <div class="flex items-center ml-4">
+                <span class="text-sm font-medium">Jenny Wilson</span>
+                <span class="mx-2 sm:mx-4">
+                  <svg width="4" height="4" viewbox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="2" cy="2" r="2" fill="#929C9A"></circle>
+                  </svg>
+                </span>
+                <span class="text-sm font-medium">9 min read</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div :class="{'hidden': !showContent}" class="hidden mt-12 flex flex-wrap -mx-4">
+      <div class="w-full md:w-1/2 px-4 mb-12 md:mb-0">
+        <a href="#" class="block group">
+          <img class="block w-full h-87 mb-8 rounded-2xl" src="flow-assets/blog/image-post2-1.png" alt="">
+          <div class="pr-8">
+            <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Harnessing the Power of the Sun: Exploring the World of Solar Energy</h4>
+            <p class="text-lg text-gray-700 mb-6">Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar techno...</p>
+            <div class="flex items-center">
+              <img class="w-10 h-10 rounded-full" src="flow-assets/blog/circle-avatar-3.png" alt="">
+              <div class="flex items-center ml-4">
+                <span class="text-sm font-medium">Leslie Alexander</span>
+                <span class="mx-2 sm:mx-4">
+                  <svg width="4" height="4" viewbox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="2" cy="2" r="2" fill="#929C9A"></circle>
+                  </svg>
+                </span>
+                <span class="text-sm font-medium">9 min read</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="w-full md:w-1/2 px-4">
+        <a href="#" class="block group">
+          <img class="block w-full h-87 mb-8 rounded-2xl" src="flow-assets/blog/image-post2-2.png" alt="">
+          <div class="pr-8">
+            <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Wind Power: A Breath of Fresh Air for Clean Energy Enthusiasts</h4>
+            <p class="text-lg text-gray-700 mb-6">Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar techno...</p>
+            <div class="flex items-center">
+              <img class="w-10 h-10 rounded-full" src="flow-assets/blog/circle-avatar-1.png" alt="">
+              <div class="flex items-center ml-4">
+                <span class="text-sm font-medium">Jenny Wilson</span>
+                <span class="mx-2 sm:mx-4">
+                  <svg width="4" height="4" viewbox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="2" cy="2" r="2" fill="#929C9A"></circle>
+                  </svg>
+                </span>
+                <span class="text-sm font-medium">9 min read</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="p-4" id="Team">
+  <div class="py-16 px-4 sm:px-8 bg-teal-900 rounded-3xl">
+    <div class="container mx-auto px-4">
+      <div class="flex mb-4 items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="15" viewbox="0 0 80 70" fill="none" class="">
+          <g clip-path="url(#clip0_550_42)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0857 -1.56313e-05C16.9428 0.199415 14.0285 0.968645 11.4 2.33617C7.68567 4.245 4.77138 7.094 2.71424 10.7692C1.14281 13.6182 0.342807 16.2108 0.0570926 19.2592C-0.0286217 20.3134 -0.0286217 21.9658 0.114235 23.1339C0.342807 25.3276 0.971379 27.6353 1.88566 29.6866C2.79995 31.7379 4.19995 33.9031 5.68566 35.4986C6.22852 36.0969 38.2 69.2592 38.3428 69.4017C39 70 40.0285 70.1709 40.9142 69.829C41.4285 69.6296 40.4285 70.6553 57.1714 53.2479C65.7142 44.359 73.1428 36.6667 73.6285 36.1823C74.5428 35.2706 74.9714 34.7578 75.4571 34.188C77.6857 31.396 79.1428 28.2621 79.7142 24.7863C79.9142 23.6182 80 22.5071 80.0285 21.0256C80.0285 20.4843 80.0285 20.1424 80.0285 20.2564C80.0285 20.4843 80.0285 20.4843 79.9714 20.057C79.8571 18.0912 79.4 15.8974 78.6857 13.9601C76.8 8.91737 73.4285 4.98574 68.8285 2.5356C66.5428 1.31053 63.9142 0.484315 61.2857 0.142435C60.1428 -1.56276e-05 58.4 -0.0569957 57.3428 -1.56313e-05C52.7142 0.284885 48.4571 1.9658 44.9714 4.84329C44.2571 5.44158 44.0285 5.6695 42 7.69229L39.9714 9.68659L38.1142 7.80625C35.5714 5.27064 34.8571 4.64386 33.2285 3.56124C30.1714 1.62392 26.8285 0.427335 23.1428 0.0854545C22.6571 0.0284744 20.5714 -1.56332e-05 20.0857 0.0284744" fill="#FC9822"></path>
+          </g>
+          <defs>
+            <clippath id="clip0_550_42">
+              <rect width="80" height="70" fill="white"></rect>
+            </clippath>
+          </defs>
+        </svg>
+        <span class="inline-block ml-2 text-sm font-medium text-white">The Top Team</span>
+      </div>
+      <div class="border-t border-white border-opacity-25 pt-16">
+        <h1 class="font-heading text-5xl sm:text-6xl text-white mb-24">The team behind the channels</h1>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div class="h-full p-8 rounded-xl bg-teal-600">
+              <img class="block mx-auto mb-8" src="images/Mask-group.png" alt="">
+              <div class="text-center">
+                <span class="block text-xl text-white font-bold">Joni Trythall</span>
+                <span class="text-lg text-white">Chief Wiggle Officer</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div class="h-full p-8 rounded-xl bg-teal-600">
+              <img class="block mx-auto mb-8" src="flow-assets/team/avatar-circle-team2.png" alt="">
+              <div class="text-center">
+                <span class="block text-xl font-bold text-white">Richard Terry</span>
+                <span class="text-lg text-white">Chosen Title</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+            <div class="h-full p-8 rounded-xl bg-teal-600">
+              <img class="block mx-auto mb-8" src="images/nick.png" alt="">
+              <div class="text-center">
+                <span class="block text-xl font-bold text-white">Nick Simson</span>
+                <span class="text-lg text-white">Literate Liaison</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 removed"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-12 lg:py-24 overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="flex mb-4 items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="15" viewbox="0 0 80 70" fill="none" class="">
+        <g clip-path="url(#clip0_550_42)">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0857 -1.56313e-05C16.9428 0.199415 14.0285 0.968645 11.4 2.33617C7.68567 4.245 4.77138 7.094 2.71424 10.7692C1.14281 13.6182 0.342807 16.2108 0.0570926 19.2592C-0.0286217 20.3134 -0.0286217 21.9658 0.114235 23.1339C0.342807 25.3276 0.971379 27.6353 1.88566 29.6866C2.79995 31.7379 4.19995 33.9031 5.68566 35.4986C6.22852 36.0969 38.2 69.2592 38.3428 69.4017C39 70 40.0285 70.1709 40.9142 69.829C41.4285 69.6296 40.4285 70.6553 57.1714 53.2479C65.7142 44.359 73.1428 36.6667 73.6285 36.1823C74.5428 35.2706 74.9714 34.7578 75.4571 34.188C77.6857 31.396 79.1428 28.2621 79.7142 24.7863C79.9142 23.6182 80 22.5071 80.0285 21.0256C80.0285 20.4843 80.0285 20.1424 80.0285 20.2564C80.0285 20.4843 80.0285 20.4843 79.9714 20.057C79.8571 18.0912 79.4 15.8974 78.6857 13.9601C76.8 8.91737 73.4285 4.98574 68.8285 2.5356C66.5428 1.31053 63.9142 0.484315 61.2857 0.142435C60.1428 -1.56276e-05 58.4 -0.0569957 57.3428 -1.56313e-05C52.7142 0.284885 48.4571 1.9658 44.9714 4.84329C44.2571 5.44158 44.0285 5.6695 42 7.69229L39.9714 9.68659L38.1142 7.80625C35.5714 5.27064 34.8571 4.64386 33.2285 3.56124C30.1714 1.62392 26.8285 0.427335 23.1428 0.0854545C22.6571 0.0284744 20.5714 -1.56332e-05 20.0857 0.0284744" fill="#FC9822"></path>
+        </g>
+        <defs>
+          <clippath id="clip0_550_42">
+            <rect width="80" height="70" fill="white"></rect>
+          </clippath>
+        </defs>
+      </svg>
+      <span class="inline-block ml-2 text-sm font-medium text-teal-900">Terrific Testimonials </span>
+    </div>
+    <div class="border-t pt-14">
+      <div class="mb-16 pb-16 border-b">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-4/12 lg:w-1/2 px-4 mb-10 md:mb-0">
+            <img class="block w-20 h-20 rounded-full" src="images/B6FBEA11-BB2D-41BE-B8BB-DD5B4844E0A3.jpg" alt="">
+          </div>
+          <div class="w-full md:w-8/12 lg:w-1/2 px-4">
+            <div class="max-w-md lg:max-w-lg md:ml-auto">
+              <h4 class="text-3xl lg:text-4xl font-medium mb-10">"I wanted more fun, thoughtful people to connect with, so when I saw a post about Wiggle Work I decided to join. So worth it! From thoughtful daily conversation starters to async board games to fun little contests with prizes, it’s a really great place to spend your time. Fantastic people with a small group feel so everyone is actually interacting with each other. You should join us!"</h4>
+              <span class="block text-xl font-medium">Linda Thompson</span>
+              <span class="block text-lg text-gray-700">Software engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-16 pb-16 border-b">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-4/12 lg:w-1/2 px-4 mb-10 md:mb-0">
+            <img class="block w-20 h-20 rounded-full" src="images/pfp-2024.jpg" alt="">
+          </div>
+          <div class="w-full md:w-8/12 lg:w-1/2 px-4">
+            <div class="max-w-md lg:max-w-lg md:ml-auto">
+              <h4 class="text-3xl lg:text-4xl font-medium mb-10">"Wiggle Work is the set of peers I need to stay sane as an independent contractor. It's small enough to get to know people, and large enough to have a lot of variety in the people. Key to it's caring culture is having Joni as our moderator. She's a skilled community manager for sure."</h4>
+              <span class="block text-xl font-medium">Ethan Schlenker </span>
+              <span class="block text-lg text-gray-700">Engineering Management Coach</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-16 pb-16 border-b">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-4/12 lg:w-1/2 px-4 mb-10 md:mb-0">
+            <img class="block w-20 h-20 rounded-full" src="images/82e377af35eaf38e.png" alt="">
+          </div>
+          <div class="w-full md:w-8/12 lg:w-1/2 px-4">
+            <div class="max-w-md lg:max-w-lg md:ml-auto">
+              <h4 class="text-3xl lg:text-4xl font-medium mb-10">"My reason to join was wanting to have a stable office kitchen meeting place regardless of where I am or for whom I work. So far Wiggle Work is that place for me."</h4>
+              <span class="block text-xl font-medium">Sarah Gebauer</span>
+              <span class="block text-lg text-gray-700">Front-end developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="p-4">
+    <div class="max-w-xl lg:max-w-5xl mx-auto xl:max-w-none px-5 md:px-12 xl:px-24 py-16 bg-teal-900 rounded-2xl">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap items-center -mx-4">
+          <div class="w-full lg:w-2/3 px-4 mb-8 lg:mb-0">
+            <div class="max-w-md xl:max-w-none">
+              <h1 class="font-heading text-4xl xs:text-5xl sm:text-6xl tracking-sm text-white mb-6">Join your new water cooler friends now</h1>
+              <p class="text-lg text-white opacity-80">Applications are usually reviewed within 24 hours—we can't wait to meet you and be sure to email us with any questions. Many of us are first-time Discord users, so don't sweat that part. </p>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/3 px-4 lg:text-right">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7L2T02FfqvNCeNwqk3ZwvEMz72GjkTzId2XN3evNO15ppYg/viewform" class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium text-teal-900 border border-lime-500 bg-lime-500 rounded-full transition duration-200 hover:border-teal-600 hover:bg-teal-600 hover:text-white">Apply</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section data-from-ai="false" class="relative py-12 lg:py-24 overflow-hidden">
+  <img class="absolute bottom-0 left-0" src="images/site-footer.svg" alt="">
+  <div class="container px-4 mx-auto relative">
+    <div class="flex flex-wrap mb-12 md:mb-24 xl:mb-40 -mx-4">
+      <div class="w-full lg:w-2/12 xl:w-3/12 px-4 mb-16 lg:mb-0">
+        <a class="inline-block mb-4" href="#">
+        <img src="images/Frame-18.svg" alt="">
+        </a>
+      </div>
+      <div class="w-full md:w-7/12 lg:w-7/12 xl:w-6/12 px-4 mb-16 lg:mb-0">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-1/2 xs:w-1/3 px-4 mb-8 xs:mb-0">
+            <h3 class="mb-6 font-bold">Resources</h3>
+            <ul>
+              <li class="mb-4">
+                <a class="inline-block text-gray-600 hover:text-lime-500 font-medium" href="blog.html">Blog</a>
+              </li>
+              <li class="mb-4">
+                <a class="inline-block text-gray-600 hover:text-lime-500 font-medium" href="https://docs.google.com/document/d/1WtNE6KtcRcA-vilWVaot0GDVpTamyRJS1g0vXHyyw_k/edit?usp=sharing">COC</a>
+              </li>
+              <li class="mb-4"></li>
+              <li>
+                <a class="inline-block text-gray-600 hover:text-lime-500 font-medium" href="#">Prompts</a>
+              </li>
+              <li class="removed"></li>
+            </ul>
+          </div>
+          <div class="w-full xs:w-1/3 px-4">
+            <h3 class="mb-6 font-bold">Community</h3>
+            <ul>
+              <li class="mb-4">
+                <a class="inline-block text-gray-600 hover:text-lime-500 font-medium" href="https://ko-fi.com/wigglework">Ko-Fi</a>
+              </li>
+              <li class="mb-4"></li>
+              <li class="mb-4">
+                <a class="inline-block text-gray-600 hover:text-lime-500 font-medium" href="https://forms.gle/7pE5DQvF3ZSYu2DR8">Stickers</a>
+              </li>
+              <li>
+                <a class="inline-block text-gray-600 hover:text-lime-500 font-medium" href="mailto:hello@wiggle.work">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-5/12 lg:w-3/12 xl:w-3/12 px-4">
+        <div class="flex flex-col w-full md:items-end">
+          <div>
+            <a href="https://mastodon.yupgup.com/@wigglework" class="group flex mb-4 items-center">
+              <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 text-black bg-lime-500 rounded-full transition duration-200 group-hover:svg-lime-500 group-hover:bg-red-800">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" class="">
+                  <g clip-path="url(#clip0_786_402)">
+                    <path d="M23.9087 5.31C23.5544 2.73 21.2564 0.7 18.5434 0.31C18.0879 0.24 16.3467 0 12.3176 0H12.2873C8.25821 0 7.38761 0.24 6.93206 0.31C4.27977 0.69 1.87044 2.52 1.28329 5.13C0.999844 6.41 0.969475 7.84 1.02009 9.14C1.09095 11.01 1.1112 12.88 1.28329 14.75C1.40477 15.99 1.61736 17.22 1.91094 18.43C2.46771 20.67 4.7252 22.53 6.93206 23.29C9.3009 24.08 11.8418 24.21 14.2815 23.67C14.5549 23.61 14.8181 23.54 15.0813 23.46C15.6785 23.28 16.3669 23.07 16.8731 22.71C16.8832 22.7 16.8933 22.68 16.8933 22.67V20.86C16.8933 20.86 16.8933 20.83 16.8731 20.82C16.863 20.81 16.8427 20.81 16.8225 20.81C15.2635 21.18 13.664 21.36 12.0544 21.36C9.29078 21.36 8.55178 20.08 8.33919 19.54C8.1671 19.08 8.05574 18.6 8.01525 18.11C8.01525 18.08 8.0355 18.06 8.06587 18.05C8.06587 18.05 8.07599 18.05 8.08611 18.05C9.62484 18.41 11.1939 18.6 12.7732 18.6C13.1579 18.6 13.5324 18.6 13.907 18.59C15.4963 18.55 17.1667 18.47 18.7358 18.17C18.7763 18.17 18.8167 18.16 18.8471 18.15C21.3071 17.69 23.6557 16.23 23.8986 12.55C23.8986 12.4 23.929 11.03 23.929 10.88C23.929 10.37 24.1011 7.25 23.9087 5.34V5.31ZM20.1125 14.51H17.521V8.29C17.521 6.98 16.9642 6.31 15.8304 6.31C14.5852 6.31 13.9576 7.1 13.9576 8.66V12.06H11.3762V8.66C11.3762 7.1 10.7485 6.31 9.50337 6.31C8.37969 6.31 7.81278 6.98 7.81278 8.29V14.51H5.22124V8.1C5.22124 6.79 5.56543 5.75 6.24368 4.98C6.95231 4.21 7.87352 3.82 9.01745 3.82C10.3436 3.82 11.3458 4.32 12.0139 5.32L12.6618 6.38L13.3097 5.32C13.9778 4.32 14.98 3.82 16.3062 3.82C17.4501 3.82 18.3713 4.21 19.08 4.98C19.7582 5.75 20.1024 6.79 20.1024 8.1V14.51H20.1125Z" fill="#3F3899"></path>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_786_402">
+                      <rect width="23" height="24" fill="white" transform="translate(1)"></rect>
+                    </clippath>
+                  </defs>
+                </svg>
+              </div>
+              <span class="ml-4 font-medium">Follow us on Mastodon</span>
+            </a>
+            <a href="#" class="group flex mb-4 items-center"></a>
+            <a href="https://www.linkedin.com/showcase/wigglework" class="group flex items-center">
+              <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-lime-500 rounded-full transition duration-200 text-teal-900 group-hover:bg-red-800">
+                <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z" fill="currentColor"></path>
+                </svg>
+              </div>
+              <span class="ml-4 font-medium">Follow us on LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="md:text-right">
+      <p class="text-sm text-gray-500">© 2024 YupGup. All rights reserved.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>

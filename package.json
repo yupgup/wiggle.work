@@ -2,6 +2,7 @@
   "name": "wiggle.work",
   "version": "0.1.0",
   "description": "Base website for wiggle.work",
+  "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
@@ -27,12 +28,10 @@
   },
   "homepage": "https://github.com/yupgup/wiggle.work#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0-beta.1",
     "@11ty/eleventy-img": "^4.0.2",
     "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-bundle": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "luxon": "^3.5.0",
     "markdown-it-anchor": "^9.2.0"
   }
