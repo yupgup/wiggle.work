@@ -1,8 +1,14 @@
-<ol reversed class="postlist">
+<ol reversed class="mt-20 flex flex-wrap -mx-4">
 {% for post in postslist | reverse %}
-  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-    <a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+  <li class="mb-4">
+    <div class="px-4 mb-12 md:mb-0">
+      <a href="{{ post.url }}" class="block group">
+        <div class="pr-8">
+          <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</h4>
+          <time class="block mb-4" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+        </div>
+      </a>
+    </div>
   </li>
 {% endfor %}
 </ol>
