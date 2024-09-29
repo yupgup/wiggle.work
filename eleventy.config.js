@@ -1,5 +1,4 @@
 import { DateTime } from "luxon";
-import markdownItAnchor from "markdown-it-anchor";
 
 import pluginRss from "@11ty/eleventy-plugin-rss";
 
@@ -71,20 +70,6 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
     return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
-  });
-
-  // Customize Markdown library settings:
-  eleventyConfig.amendLibrary("md", mdLib => {
-    mdLib.use(markdownItAnchor, {
-      permalink: _permalink.ariaHidden({
-        placement: "after",
-        class: "header-anchor",
-        symbol: "#",
-        ariaHidden: false,
-      }),
-      level: [1,2,3,4],
-      slugify: eleventyConfig.getFilter("slugify")
-    });
   });
 
   eleventyConfig.addShortcode("currentBuildDate", () => {

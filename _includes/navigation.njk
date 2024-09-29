@@ -1,82 +1,69 @@
 <section x-data="{ mobileNavOpen: false }" class="overflow-hidden">
   <nav class="mx-4 py-6">
-      <div class="container mx-auto px-4">
-          <div class="relative flex items-center justify-between">
-              <div class="flex items-center">
-                  <a href="index.html" class="inline-block">
-                      <img class="h-8" src="images/ww-logo.svg" alt="">
-                  </a>
-                  <ul class="hidden md:flex ml-10">
-                    <li class="mr-8">
-                      <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="#Benefits">Benefits</a>
-                    </li>
-                    <li class="mr-8">
-                      <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="#Team">Team</a>
-                    </li>
-                    <li>
-                      <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="blog.html">Blog</a>
-                    </li>
-                  </ul>
-              </div>
-              <div class="flex items-center justify-end">
-                  <div class="hidden md:block">
-                      <a href="#" class="inline-flex py-2.5 px-4 mr-4 items-center justify-center text-sm font-medium text-teal-900 hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-200">Email us</a>
-                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7L2T02FfqvNCeNwqk3ZwvEMz72GjkTzId2XN3evNO15ppYg/viewform" class="inline-flex py-2.5 px-4 items-center justify-center text-sm font-medium text-white border border-teal-900 bg-teal-900 rounded-full transition duration-200 hover:bg-teal-600 hover:border-teal-600">Apply</a>
-                  </div>
-                  <button x-on:click="mobileNavOpen = !mobileNavOpen" class="md:hidden text-teal-900 hover:text-teal-800">
-                      <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M5.19995 23.2H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                          <path d="M5.19995 16H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                          <path d="M5.19995 8.79999H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                  </button>
-              </div>
-          </div>
+    <div class="container mx-auto px-4">
+      <div class="relative flex items-center justify-between">
+        <div class="flex items-center">
+          <a href="/" class="inline-block">
+            <img class="h-8" src="/img/ww-logo.svg" alt="">
+          </a>
+          <ul class="hidden md:flex ml-10">
+            <li class="mr-8">
+              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/#Benefits">Benefits</a>
+            </li>
+            <li class="mr-8">
+              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/#Team">Team</a>
+            </li>
+            <li>
+              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center justify-end">
+            <div class="hidden md:block">
+                <a href="mailto:hello@wiggle.work" class="inline-flex py-2.5 px-4 mr-4 items-center justify-center text-sm font-medium text-teal-900 hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-200">Contact</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7L2T02FfqvNCeNwqk3ZwvEMz72GjkTzId2XN3evNO15ppYg/viewform" class="inline-flex py-2.5 px-4 items-center justify-center text-sm font-medium text-white border border-teal-900 bg-teal-900 rounded-full transition duration-200 hover:bg-teal-600 hover:border-teal-600">Apply</a>
+            </div>
+            <button x-on:click="mobileNavOpen = !mobileNavOpen" class="md:hidden text-teal-900 hover:text-teal-800">
+                <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.19995 23.2H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.19995 16H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.19995 8.79999H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+        </div>
       </div>
+    </div>
   </nav>
 
   <div :class="{'block': mobileNavOpen, 'hidden': !mobileNavOpen}" class="hidden fixed top-0 left-0 bottom-0 w-full xs:w-5/6 xs:max-w-md z-50">
       <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 bg-violet-900 opacity-20"></div>
       <nav class="relative flex flex-col py-7 px-10 w-full h-full bg-white overflow-y-auto">
           <div class="flex items-center justify-between">
-              <a href="#" class="inline-block">
-                  <img class="h-8" src="flow-assets/logos/sign-logo-flow.svg" alt="">
+              <a href="/" class="inline-block">
+                <img class="h-8" src="/img/ww-logo.svg" alt="">
               </a>
               <div class="flex items-center">
-                  <a href="#" class="inline-flex py-2.5 px-4 items-center justify-center text-sm font-medium text-teal-900 hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-200">Login</a>
-                  <button x-on:click="mobileNavOpen = !mobileNavOpen" class="ml-6">
-                      <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M23.2 8.79999L8.80005 23.2M8.80005 8.79999L23.2 23.2" stroke="#1D1F1E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                  </button>
+                <button x-on:click="mobileNavOpen = !mobileNavOpen" class="ml-6">
+                  <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M23.2 8.79999L8.80005 23.2M8.80005 8.79999L23.2 23.2" stroke="#1D1F1E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
               </div>
           </div>
           <div class="pt-20 pb-12 mb-auto">
-              <ul class="flex-col">
-                  <li class="mb-6">
-                      <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="#">About us</a>
-                  </li>
-                  <li class="mb-6">
-                      <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="#">Team</a>
-                  </li>
-                  <li class="mb-6">
-                      <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="#">Solutions</a>
-                  </li>
-                  <li>
-                      <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="#">Blog</a>
-                  </li>
-              </ul>
+            <ul class="flex-col">
+              <li class="mb-6">
+                  <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/#Benefits">Benefits</a>
+              </li>
+              <li class="mb-6">
+                  <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/#Team">Team</a>
+              </li>
+              <li>
+                  <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/blog">Blog</a>
+              </li>
+            </ul>
           </div>
           <div class="flex items-center justify-between">
-              <a href="#" class="inline-flex items-center text-lg font-medium text-teal-900">
-                  <span>
-                      <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M6.4 6.39999H25.6C26.92 6.39999 28 7.47999 28 8.79999V23.2C28 24.52 26.92 25.6 25.6 25.6H6.4C5.08 25.6 4 24.52 4 23.2V8.79999C4 7.47999 5.08 6.39999 6.4 6.39999Z" stroke="#646A69" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                          <path d="M28 8.8L16 17.2L4 8.8" stroke="#646A69" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                  </span>
-                  <span class="ml-2">Newsletter</span>
-              </a>
               <div class="flex items-center">
                   <a href="#" class="inline-block mr-4">
                       <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
