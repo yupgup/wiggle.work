@@ -3,27 +3,18 @@ layout: layouts/base.njk
 ---
 
 <div class="container mx-auto px-4">
-  <div class="max-w-lg xl:max-w-xl mx-auto lg:mx-0 pt-12 pb-28 lg:py-24">
-    <h1 class="font-heading text-4xl sm:text-5xl md:text-6xl mb-6">{{ title }}</h1>
-    <p>
-      Posted
-      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-    </p>
+  <div class="pt-12 pb-28 lg:py-24">
+    <div class="prose prose-lg mx-auto">
+      <h1 class="font-heading text-4xl sm:text-5xl md:text-6xl mb-6">{{ title }}</h1>
+      <p>
+        <strong>
+        Posted
+        <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+        </strong>
+      </p>
 
-    <div class="prose-lg">
       {{ content | safe }}
     </div>
-
-    {%- if collections.posts %}
-    {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-    {%- set nextPost = collections.posts | getNextCollectionItem %}
-    {%- if nextPost or previousPost %}
-    <ul class="links-nextprev">
-      {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-      {%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-    </ul>
-    {%- endif %}
-    {%- endif %}
   </div>
 </div>
 
