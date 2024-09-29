@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:400,700,800&amp;subset=latin">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/eleventy-base-blog/css/index.css">
+    <link rel="stylesheet" href="/eleventy-base-blog/css/output.css">
 
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer=""></script>
   </head>
@@ -33,7 +33,7 @@
               <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/eleventy-base-blog/#Team">Team</a>
             </li>
             <li>
-              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/eleventy-base-blog/">Blog</a>
+              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/eleventy-base-blog/blog">Blog</a>
             </li>
           </ul>
         </div>
@@ -352,7 +352,7 @@
           </clippath>
         </defs>
       </svg>
-      <span class="inline-block ml-2 text-sm font-medium text-teal-900">Blog Bonanza </span>
+      <span class="inline-block ml-2 text-sm font-medium text-teal-900">Blog Bonanza</span>
     </div>
     <div class="border-t pt-16">
       <div class="flex flex-wrap items-center justify-between mb-20 -mx-4">
@@ -362,7 +362,7 @@
           </div>
         </div>
         <div class="w-full sm:w-1/3 px-4 sm:text-right">
-          <a x-on:click.prevent="showContent = true" :class="{'hidden': showContent}" href="#" class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-300 hidden text-teal-900">
+          <a href="/eleventy-base-blog/blog" class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-300 text-teal-900">
             <span class="mr-2">See all</span>
             <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.75 10H15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -372,93 +372,47 @@
         </div>
       </div>
     </div>
-    <div class="mt-20 flex flex-wrap -mx-4">
-      <div class="w-full md:w-1/2 px-4 mb-12 md:mb-0">
-        <a href="#" class="block group">
-          <img class="block w-full h-87 mb-8 rounded-2xl" src="flow-assets/blog/image-post2-1.png" alt="">
-          <div class="pr-8">
-            <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Harnessing the Power of the Sun: Exploring the World of Solar Energy</h4>
-            <p class="text-lg text-gray-700 mb-6">Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar techno...</p>
-            <div class="flex items-center">
-              <img class="w-10 h-10 rounded-full" src="flow-assets/blog/circle-avatar-3.png" alt="">
-              <div class="flex items-center ml-4">
-                <span class="text-sm font-medium">Leslie Alexander</span>
-                <span class="mx-2 sm:mx-4">
-                  <svg width="4" height="4" viewbox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="2" cy="2" r="2" fill="#929C9A"></circle>
-                  </svg>
-                </span>
-                <span class="text-sm font-medium">9 min read</span>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="w-full md:w-1/2 px-4">
-        <a href="#" class="block group">
-          <img class="block w-full h-87 mb-8 rounded-2xl" src="flow-assets/blog/image-post2-2.png" alt="">
-          <div class="pr-8">
-            <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Wind Power: A Breath of Fresh Air for Clean Energy Enthusiasts</h4>
-            <p class="text-lg text-gray-700 mb-6">Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar techno...</p>
-            <div class="flex items-center">
-              <img class="w-10 h-10 rounded-full" src="flow-assets/blog/circle-avatar-1.png" alt="">
-              <div class="flex items-center ml-4">
-                <span class="text-sm font-medium">Jenny Wilson</span>
-                <span class="mx-2 sm:mx-4">
-                  <svg width="4" height="4" viewbox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="2" cy="2" r="2" fill="#929C9A"></circle>
-                  </svg>
-                </span>
-                <span class="text-sm font-medium">9 min read</span>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
+
+    <div>
+      
+      
+      <ol reversed="" class="mt-20 flex flex-wrap -mx-4">
+
+  <li class="mb-4">
+    <div class="px-4 mb-12 md:mb-0">
+      <a href="/eleventy-base-blog/blog/fourthpost/" class="block group">
+        <div class="pr-8">
+          <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">This is my fourth post!</h4>
+          <time class="block mb-4" datetime="2018-09-30">September 2018</time>
+        </div>
+      </a>
     </div>
-    <div :class="{'hidden': !showContent}" class="hidden mt-12 flex flex-wrap -mx-4">
-      <div class="w-full md:w-1/2 px-4 mb-12 md:mb-0">
-        <a href="#" class="block group">
-          <img class="block w-full h-87 mb-8 rounded-2xl" src="flow-assets/blog/image-post2-1.png" alt="">
-          <div class="pr-8">
-            <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Harnessing the Power of the Sun: Exploring the World of Solar Energy</h4>
-            <p class="text-lg text-gray-700 mb-6">Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar techno...</p>
-            <div class="flex items-center">
-              <img class="w-10 h-10 rounded-full" src="flow-assets/blog/circle-avatar-3.png" alt="">
-              <div class="flex items-center ml-4">
-                <span class="text-sm font-medium">Leslie Alexander</span>
-                <span class="mx-2 sm:mx-4">
-                  <svg width="4" height="4" viewbox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="2" cy="2" r="2" fill="#929C9A"></circle>
-                  </svg>
-                </span>
-                <span class="text-sm font-medium">9 min read</span>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="w-full md:w-1/2 px-4">
-        <a href="#" class="block group">
-          <img class="block w-full h-87 mb-8 rounded-2xl" src="flow-assets/blog/image-post2-2.png" alt="">
-          <div class="pr-8">
-            <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Wind Power: A Breath of Fresh Air for Clean Energy Enthusiasts</h4>
-            <p class="text-lg text-gray-700 mb-6">Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar techno...</p>
-            <div class="flex items-center">
-              <img class="w-10 h-10 rounded-full" src="flow-assets/blog/circle-avatar-1.png" alt="">
-              <div class="flex items-center ml-4">
-                <span class="text-sm font-medium">Jenny Wilson</span>
-                <span class="mx-2 sm:mx-4">
-                  <svg width="4" height="4" viewbox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="2" cy="2" r="2" fill="#929C9A"></circle>
-                  </svg>
-                </span>
-                <span class="text-sm font-medium">9 min read</span>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
+  </li>
+
+  <li class="mb-4">
+    <div class="px-4 mb-12 md:mb-0">
+      <a href="/eleventy-base-blog/blog/thirdpost/" class="block group">
+        <div class="pr-8">
+          <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">This is my third post.</h4>
+          <time class="block mb-4" datetime="2018-08-24">August 2018</time>
+        </div>
+      </a>
+    </div>
+  </li>
+
+  <li class="mb-4">
+    <div class="px-4 mb-12 md:mb-0">
+      <a href="/eleventy-base-blog/blog/secondpost/" class="block group">
+        <div class="pr-8">
+          <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">This is my second post with a much longer title.</h4>
+          <time class="block mb-4" datetime="2018-07-04">July 2018</time>
+        </div>
+      </a>
+    </div>
+  </li>
+
+</ol>
+
     </div>
   </div>
 </section>
@@ -599,38 +553,6 @@
 </section>
 
 
-
-
-<h1>Latest 3 Posts</h1>
-
-
-
-<ol reversed="" class="postlist">
-
-  <li class="postlist-item">
-    <a href="/eleventy-base-blog/blog/fourthpost/" class="postlist-link">This is my fourth post!</a>
-    <time class="postlist-date" datetime="2018-09-30">September 2018</time>
-  </li>
-
-  <li class="postlist-item">
-    <a href="/eleventy-base-blog/blog/thirdpost/" class="postlist-link">This is my third post.</a>
-    <time class="postlist-date" datetime="2018-08-24">August 2018</time>
-  </li>
-
-  <li class="postlist-item">
-    <a href="/eleventy-base-blog/blog/secondpost/" class="postlist-link">This is my second post with a much longer title.</a>
-    <time class="postlist-date" datetime="2018-07-04">July 2018</time>
-  </li>
-
-</ol>
-
-
-
-
-<p>1 more post can be found in <a href="/eleventy-base-blog/blog/">the archive</a>.</p>
-
-
-
     </main>
 
     <footer class="relative py-12 lg:py-24 overflow-hidden">
@@ -712,7 +634,7 @@
     </footer>
 
     <!--
-      This page `/eleventy-base-blog/` was built on 2024-09-29T20:38:26.576Z
+      This page `/eleventy-base-blog/` was built on 2024-09-29T21:51:58.996Z
     -->
   </body>
 </html>

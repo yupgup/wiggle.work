@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:400,700,800&amp;subset=latin">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/eleventy-base-blog/css/index.css">
+    <link rel="stylesheet" href="/eleventy-base-blog/css/output.css">
 
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer=""></script>
   </head>
@@ -33,7 +33,7 @@
               <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/eleventy-base-blog/#Team">Team</a>
             </li>
             <li>
-              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/eleventy-base-blog/">Blog</a>
+              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/eleventy-base-blog/blog">Blog</a>
             </li>
           </ul>
         </div>
@@ -110,34 +110,61 @@
 
     <main>
       
-<h1>Archive</h1>
+<div class="container mx-auto px-4">
+  <div class="max-w-lg xl:max-w-xl mx-auto lg:mx-0 pt-12 pb-28 lg:py-24">
+    <h1 class="font-heading text-4xl sm:text-5xl md:text-6xl mb-6">Latest Posts</h1>
 
+    
+    <ol reversed="" class="mt-20 flex flex-wrap -mx-4">
 
-<ol reversed="" class="postlist">
-
-  <li class="postlist-item">
-    <a href="/eleventy-base-blog/blog/fourthpost/" class="postlist-link">This is my fourth post!</a>
-    <time class="postlist-date" datetime="2018-09-30">September 2018</time>
+  <li class="mb-4">
+    <div class="px-4 mb-12 md:mb-0">
+      <a href="/eleventy-base-blog/blog/fourthpost/" class="block group">
+        <div class="pr-8">
+          <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">This is my fourth post!</h4>
+          <time class="block mb-4" datetime="2018-09-30">September 2018</time>
+        </div>
+      </a>
+    </div>
   </li>
 
-  <li class="postlist-item">
-    <a href="/eleventy-base-blog/blog/thirdpost/" class="postlist-link">This is my third post.</a>
-    <time class="postlist-date" datetime="2018-08-24">August 2018</time>
+  <li class="mb-4">
+    <div class="px-4 mb-12 md:mb-0">
+      <a href="/eleventy-base-blog/blog/thirdpost/" class="block group">
+        <div class="pr-8">
+          <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">This is my third post.</h4>
+          <time class="block mb-4" datetime="2018-08-24">August 2018</time>
+        </div>
+      </a>
+    </div>
   </li>
 
-  <li class="postlist-item">
-    <a href="/eleventy-base-blog/blog/secondpost/" class="postlist-link">This is my second post with a much longer title.</a>
-    <time class="postlist-date" datetime="2018-07-04">July 2018</time>
+  <li class="mb-4">
+    <div class="px-4 mb-12 md:mb-0">
+      <a href="/eleventy-base-blog/blog/secondpost/" class="block group">
+        <div class="pr-8">
+          <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">This is my second post with a much longer title.</h4>
+          <time class="block mb-4" datetime="2018-07-04">July 2018</time>
+        </div>
+      </a>
+    </div>
   </li>
 
-  <li class="postlist-item">
-    <a href="/eleventy-base-blog/blog/firstpost/" class="postlist-link">This is my first post.</a>
-    <time class="postlist-date" datetime="2018-05-01">May 2018</time>
+  <li class="mb-4">
+    <div class="px-4 mb-12 md:mb-0">
+      <a href="/eleventy-base-blog/blog/firstpost/" class="block group">
+        <div class="pr-8">
+          <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">This is my first post.</h4>
+          <time class="block mb-4" datetime="2018-05-01">May 2018</time>
+        </div>
+      </a>
+    </div>
   </li>
 
 </ol>
 
-
+  </div>
+</div>
 
     </main>
 
@@ -220,7 +247,7 @@
     </footer>
 
     <!--
-      This page `/eleventy-base-blog/blog/` was built on 2024-09-29T20:38:26.576Z
+      This page `/eleventy-base-blog/blog/` was built on 2024-09-29T21:51:58.993Z
     -->
   </body>
 </html>
