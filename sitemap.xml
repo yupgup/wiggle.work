@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://wiggle.work/eleventy-base-blog/blog/firstpost/ponder-prompts/</loc>
+		<loc>https://wiggle.work/blog/firstpost/ponder-prompts/</loc>
 		<lastmod>2024-10-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://wiggle.work/eleventy-base-blog/blog/</loc>
+		<loc>https://wiggle.work/blog/</loc>
 		<lastmod>2024-10-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://wiggle.work/eleventy-base-blog/</loc>
+		<loc>https://wiggle.work/</loc>
 		<lastmod>2024-10-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://wiggle.work/eleventy-base-blog/tags/</loc>
+		<loc>https://wiggle.work/tags/</loc>
 		<lastmod>2024-10-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://wiggle.work/eleventy-base-blog/tags/second-tag/</loc>
+		<loc>https://wiggle.work/tags/second-tag/</loc>
 		<lastmod>2024-10-02</lastmod>
 	</url>
 </urlset>

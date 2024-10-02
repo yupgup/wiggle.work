@@ -2,19 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Wiggle Work</title>
     <meta name="description" content="A community for remote workers.">
-    <link rel="alternate" href="/eleventy-base-blog/feed/feed.xml" type="application/atom+xml" title="Wiggle Work">
-    <link rel="alternate" href="/eleventy-base-blog/feed/feed.json" type="application/json" title="Wiggle Work">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Wiggle Work">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Wiggle Work">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:400,700,800&amp;subset=latin">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/eleventy-base-blog/css/output.css">
+    <link rel="stylesheet" href="/css/output.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>
   </head>
   <body class="antialiased bg-body text-body font-body">
     <section x-data="{ mobileNavOpen: false }" class="overflow-hidden">
@@ -22,18 +24,18 @@
     <div class="container mx-auto px-4">
       <div class="relative flex items-center justify-between">
         <div class="flex items-center">
-          <a href="/eleventy-base-blog/" class="inline-block">
-            <img class="h-8" src="/eleventy-base-blog/img/ww-logo.svg" alt="">
+          <a href="/" class="inline-block">
+            <img class="h-8" src="/img/ww-logo.svg" alt="">
           </a>
           <ul class="hidden md:flex ml-10">
             <li class="mr-8">
-              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/eleventy-base-blog/#Benefits">Benefits</a>
+              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/#Benefits">Benefits</a>
             </li>
             <li class="mr-8">
-              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/eleventy-base-blog/#Team">Team</a>
+              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/#Team">Team</a>
             </li>
             <li>
-              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/eleventy-base-blog/blog">Blog</a>
+              <a class="inline-block text-teal-900 font-medium hover:text-red-900" href="/blog">Blog</a>
             </li>
           </ul>
         </div>
@@ -58,8 +60,8 @@
       <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 bg-violet-900 opacity-20"></div>
       <nav class="relative flex flex-col py-7 px-10 w-full h-full bg-white overflow-y-auto">
           <div class="flex items-center justify-between">
-              <a href="/eleventy-base-blog/" class="inline-block">
-                <img class="h-8" src="/eleventy-base-blog/img/ww-logo.svg" alt="">
+              <a href="/" class="inline-block">
+                <img class="h-8" src="/img/ww-logo.svg" alt="">
               </a>
               <div class="flex items-center">
                 <button x-on:click="mobileNavOpen = !mobileNavOpen" class="ml-6">
@@ -72,13 +74,13 @@
           <div class="pt-20 pb-12 mb-auto">
             <ul class="flex-col">
               <li class="mb-6">
-                  <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/eleventy-base-blog/#Benefits">Benefits</a>
+                  <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/#Benefits">Benefits</a>
               </li>
               <li class="mb-6">
-                  <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/eleventy-base-blog/#Team">Team</a>
+                  <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/#Team">Team</a>
               </li>
               <li>
-                  <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/eleventy-base-blog/blog">Blog</a>
+                  <a class="inline-block text-teal-900 hover:text-teal-700 font-medium" href="/blog">Blog</a>
               </li>
             </ul>
           </div>
@@ -136,10 +138,10 @@
       </div>
     </div>
     <div class="hidden lg:flex items-center justify-center absolute top-0 right-0 h-full max-w-lg xl:max-w-none xl:w-2/5 p-3 ml-auto">
-      <img class="block xl:h-full mx-auto" src="/eleventy-base-blog/img/wiggle.png" alt="">
+      <img class="block xl:h-full mx-auto" src="/img/wiggle.png" alt="">
     </div>
     </div>
-  
+  </div>
 </section>
 
 <section class="p-4 bg-white" id="Benefits">
@@ -327,9 +329,9 @@
           <div class="w-full md:w-1/2 px-4">
             <div class="md:w-116 md:h-116 md:ml-auto rounded-2xl overflow-hidden">
               <div :style="'transform: translateX(-' + (activeSlide - 1) * 100 + '%)'" class="flex -mx-4 transition-transform duration-500" style="transform: translateX(-200%)">
-                <img class="block flex-shrink-0 px-4" src="/eleventy-base-blog/img/channel-preview.png" alt="">
-                <img class="block flex-shrink-0 w-full px-4" src="/eleventy-base-blog/img/4576B7A8-ADAA-45C7-AEE9-BA23585E285E-1-105-c.jpeg" alt="">
-                <img class="block flex-shrink-0 w-full px-4" src="/eleventy-base-blog/img/Whiteboard.png" alt="">
+                <img class="block flex-shrink-0 px-4" src="/img/channel-preview.png" alt="">
+                <img class="block flex-shrink-0 w-full px-4" src="/img/4576B7A8-ADAA-45C7-AEE9-BA23585E285E-1-105-c.jpeg" alt="">
+                <img class="block flex-shrink-0 w-full px-4" src="/img/Whiteboard.png" alt="">
               </div>
             </div>
           </div>
@@ -362,7 +364,7 @@
           </div>
         </div>
         <div class="w-full sm:w-1/3 px-4 sm:text-right">
-          <a href="/eleventy-base-blog/blog" class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-300 text-teal-900">
+          <a href="/blog" class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-300 text-teal-900">
             <span class="mr-2">See all</span>
             <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.75 10H15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -376,11 +378,11 @@
     <div>
       
       
-      <ol reversed="" class="mt-20 flex flex-wrap -mx-4">
+      <ol reversed class="mt-20 flex flex-wrap -mx-4">
 
   <li class="mb-4">
     <div class="px-4 mb-12 md:mb-0">
-      <a href="/eleventy-base-blog/blog/firstpost/ponder-prompts/" class="block group">
+      <a href="/blog/firstpost/ponder-prompts/" class="block group">
         <div class="pr-8">
           <h4 class="text-3xl font-medium group-hover:text-teal-600 transition duration-200 mb-4">Ponder Prompts Dynamic Doc</h4>
           <time class="block mb-4" datetime="2024-10-02">October 2024</time>
@@ -416,7 +418,7 @@
         <div class="flex flex-wrap -mx-4">
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
             <div class="h-full p-8 rounded-xl bg-teal-600">
-              <img class="block mx-auto mb-8" src="/eleventy-base-blog/img/joni.png" alt="Joni Trythall">
+              <img class="block mx-auto mb-8" src="/img/joni.png" alt="Joni Trythall">
               <div class="text-center">
                 <span class="block text-xl text-white font-bold">Joni Trythall</span>
                 <span class="text-lg text-white">Chief Wiggle Officer</span>
@@ -426,7 +428,7 @@
       
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
             <div class="h-full p-8 rounded-xl bg-teal-600">
-              <img class="block mx-auto mb-8" src="/eleventy-base-blog/img/richard.png" alt="Richard Terry">
+              <img class="block mx-auto mb-8" src="/img/richard.png" alt="Richard Terry">
               <div class="text-center">
                 <span class="block text-xl font-bold text-white">Richard Terry</span>
                 <span class="text-lg text-white">Untitled Unicorn</span>
@@ -436,7 +438,7 @@
       
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
             <div class="h-full p-8 rounded-xl bg-teal-600">
-              <img class="block mx-auto mb-8" src="/eleventy-base-blog/img/nick.png" alt="Nick Simson">
+              <img class="block mx-auto mb-8" src="/img/nick.png" alt="Nick Simson">
               <div class="text-center">
                 <span class="block text-xl font-bold text-white">Nick Simson</span>
                 <span class="text-lg text-white">Literate Liaison</span>
@@ -469,7 +471,7 @@
       <div class="mb-16 pb-16 border-b">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full md:w-4/12 lg:w-1/2 px-4 mb-10 md:mb-0">
-            <img class="block w-20 h-20 rounded-full" src="/eleventy-base-blog/img/B6FBEA11-BB2D-41BE-B8BB-DD5B4844E0A3.jpg" alt="Linda Thompson">
+            <img class="block w-20 h-20 rounded-full" src="/img/B6FBEA11-BB2D-41BE-B8BB-DD5B4844E0A3.jpg" alt="Linda Thompson">
           </div>
           <div class="w-full md:w-8/12 lg:w-1/2 px-4">
             <div class="max-w-md lg:max-w-lg md:ml-auto">
@@ -497,7 +499,7 @@
       <div class="mb-16 pb-16 border-b">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full md:w-4/12 lg:w-1/2 px-4 mb-10 md:mb-0">
-            <img class="block w-20 h-20 rounded-full" src="/eleventy-base-blog/img/pfp-2024.jpg" alt="Ethan Schlenker">
+            <img class="block w-20 h-20 rounded-full" src="/img/pfp-2024.jpg" alt="Ethan Schlenker">
           </div>
           <div class="w-full md:w-8/12 lg:w-1/2 px-4">
             <div class="max-w-md lg:max-w-lg md:ml-auto">
@@ -511,7 +513,7 @@
       <div class="mb-16 pb-16 border-b">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full md:w-4/12 lg:w-1/2 px-4 mb-10 md:mb-0">
-            <img class="block w-20 h-20 rounded-full" src="/eleventy-base-blog/img/82e377af35eaf38e.png" alt="Sarah Gebauer">
+            <img class="block w-20 h-20 rounded-full" src="/img/82e377af35eaf38e.png" alt="Sarah Gebauer">
           </div>
           <div class="w-full md:w-8/12 lg:w-1/2 px-4">
             <div class="max-w-md lg:max-w-lg md:ml-auto">
@@ -550,12 +552,12 @@
     </main>
 
     <footer class="relative py-12 lg:py-24 overflow-hidden">
-      <img class="absolute bottom-0 left-0" src="/eleventy-base-blog/img/site-footer.svg" alt="">
+      <img class="absolute bottom-0 left-0" src="/img/site-footer.svg" alt="">
       <div class="container px-4 mx-auto relative">
         <div class="flex flex-wrap mb-12 md:mb-24 xl:mb-40 -mx-4">
           <div class="w-full lg:w-2/12 xl:w-3/12 px-4 mb-16 lg:mb-0">
             <a class="inline-block mb-4" href="#">
-            <img src="/eleventy-base-blog/img/Frame-18.svg" alt="">
+            <img src="/img/Frame-18.svg" alt="">
             </a>
           </div>
           <div class="w-full md:w-7/12 lg:w-7/12 xl:w-6/12 px-4 mb-16 lg:mb-0">
@@ -564,7 +566,7 @@
                 <h3 class="mb-6 font-bold">Resources</h3>
                 <ul>
                   <li class="mb-4">
-                    <a class="inline-block text-gray-600 hover:text-lime-500 font-medium" href="/eleventy-base-blog/blog">Blog</a>
+                    <a class="inline-block text-gray-600 hover:text-lime-500 font-medium" href="/blog">Blog</a>
                   </li>
                   <li class="mb-4">
                     <a class="inline-block text-gray-600 hover:text-lime-500 font-medium" href="https://docs.google.com/document/d/1WtNE6KtcRcA-vilWVaot0GDVpTamyRJS1g0vXHyyw_k/edit?usp=sharing">COC</a>
@@ -628,7 +630,7 @@
     </footer>
 
     <!--
-      This page `/eleventy-base-blog/` was built on 2024-10-02T17:25:21.273Z
+      This page `/` was built on 2024-10-02T18:54:18.433Z
     -->
   </body>
 </html>
