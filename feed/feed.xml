@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>Wiggle Work</title>
-	<subtitle>A community for remote workers.</subtitle>
+	<subtitle>A Discord community for remote tech workers.</subtitle>
 	<link href="https://wiggle.work/feed/feed.xml" rel="self"/>
 	<link href="https://wiggle.work/"/>
 	<updated>2024-10-02T00:00:00Z</updated>
