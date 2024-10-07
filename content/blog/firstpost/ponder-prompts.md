@@ -25,3 +25,5 @@ The purchase price here secures lifelong access to the living Google document, w
 Thank you, wiggly new friends.   
 
 PS. Not a member yet? Let’s [fix that](https://docs.google.com/forms/d/e/1FAIpQLSd7L2T02FfqvNCeNwqk3ZwvEMz72GjkTzId2XN3evNO15ppYg/viewform)!
+
+—[@Joni](https://mastodon.yupgup.com/@joni)
