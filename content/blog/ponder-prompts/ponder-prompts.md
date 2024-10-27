@@ -4,8 +4,8 @@ description: Get our full list of Wiggle Work Ponder Prompts—the heart of the 
 date: 2024-10-02
 
 cover:
-  src: "ponder1.png"
-  alt: "Hand drawn icons and rough text that says Ponder Prompts"
+  src: "ponder2.png"
+  alt: "Doc preview screenshots of Ponder Prompts"
 ---
 Ponder Prompts are daily weekday discussion themes and they are the heart of Wiggle Work. Successful, engaged communities will not happen by chance, and these prompts have helped us get to know each other in a unique, fast-tracked, fun, and genuine way. I’ve tracked most of these since the start of the community in August 2023 and have been housing them in a master, living 39+ page (and growing) document with a link to the Discord discussion for new members to look back on.
 
