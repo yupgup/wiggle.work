@@ -4,7 +4,7 @@ description: The details to join the fun and WIN.
 date: 2024-10-27
 
 cover:
-  src: "cc24.png"
+  src: "candy24.jpg"
   alt: "Preview image of Mike and Ikes in glass jar"
 ---
 It’s CANDY COUNT time again! Last year we counted [wiggly gummy worms](https://mastodon.yupgup.com/@joni/111330878714507284) for [Field Notes](https://mastodon.yupgup.com/@joni/111325353439590139) and this year we are counting Mike and Ikes for a 12 pack of the best fidgets out there: [STIMAGZ](https://stimara.com/collections/stimara-products/products/stimagz-12-pack). These have been my all time favorite go-tos for calls and thinking at my desk.
