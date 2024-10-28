@@ -7,7 +7,7 @@ cover:
   src: "scary.png"
   alt: "A collage of scary movie actors"
 ---
-In preparation for Halloween, we are celebrating Monster Movie Monday in the general channel. Members have shared their favorite modern and older scary movies and shows for adults and kids. 
+In preparation for Halloween, we are celebrating **Monster Movie Monday** in the general channel. Members have shared their favorite modern and older scary movies and shows for adults and kids. 
 
 {% image "./scary.png", "A collage of scary movie actors" %}
 
