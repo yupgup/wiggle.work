@@ -4,12 +4,48 @@
 	<subtitle>A Discord community for remote tech workers.</subtitle>
 	<link href="https://wiggle.work/feed/feed.xml" rel="self"/>
 	<link href="https://wiggle.work/"/>
-	<updated>2024-10-27T00:00:00Z</updated>
+	<updated>2024-10-28T00:00:00Z</updated>
 	<id>https://wiggle.work/</id>
 	<author>
 		<name>Joni Trythall</name>
 		<email>joni@yupgup.com</email>
 	</author>
+	
+	<entry>
+		<title>Monster Movies</title>
+		<link href="https://wiggle.work/blog/monster-movies/"/>
+		<updated>2024-10-28T00:00:00Z</updated>
+		<id>https://wiggle.work/blog/monster-movies/</id>
+		<content type="html">&lt;p&gt;In preparation for Halloween, we are celebrating Monster Movie Monday in the general channel. Members have shared their favorite modern and older scary movies and shows for adults and kids.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://wiggle.work/img/f49x3-MkaS-2000.webp 2000w&quot;&gt;&lt;img alt=&quot;A collage of scary movie actors&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://wiggle.work/img/f49x3-MkaS-2000.png&quot; width=&quot;2000&quot; height=&quot;2000&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h2&gt;Movies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt2798920/&quot;&gt;Annihilation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://m.imdb.com/title/tt0443435/&quot;&gt;Autopsy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://m.imdb.com/title/tt6905686/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_lovecraft&quot;&gt;Lovecraft Country&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt0071222/&quot;&gt;Black Christmas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt1457767/?ref_=fn_al_tt_1&quot;&gt;The Conjuring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt0298130/?ref_=fn_al_tt_1&quot;&gt;The Ring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://m.imdb.com/title/tt0090605/?ref_=fn_al_tt_1&quot;&gt;Aliens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt0081505/?ref_=fn_al_tt_1&quot;&gt;The Shining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt0084516/?ref_=fn_al_tt_1&quot;&gt;Poltergeist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt0078767/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Amityville%2520Horror&quot;&gt;The Amityville Horror&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt0101272/?ref_=fn_al_tt_1&quot;&gt;The Addams Family&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt0094721/?ref_=fn_al_tt_2&quot;&gt;Beetlejuice&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Shows&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt2521668/&quot;&gt;The Returned&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt5753856/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_dark&quot;&gt;Dark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://m.imdb.com/title/tt6763664/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_The%2520Haunting%2520of%2520Hill%2520House&quot;&gt;The Haunting of Hill House&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt3581920/?ref_=fn_al_tt_1&quot;&gt;The Last of Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt2243973/?ref_=fn_al_tt_1&quot;&gt;Hannibal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imdb.com/title/tt13443470/?ref_=nv_sr_srsg_1_tt_6_nm_1_in_0_q_wednesday&quot;&gt;Wednesday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We hope you have the spookiest, coziest Halloween movie night!&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;https://mastodon.yupgup.com/@joni&quot;&gt;@Joni&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Candy Count 2024</title>
