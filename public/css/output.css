@@ -1931,6 +1931,11 @@ video {
   color: rgb(252 152 34 / var(--tw-text-opacity));
 }
 
+.hover\:text-orange-50:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 242 229 / var(--tw-text-opacity));
+}
+
 .hover\:text-red-900:hover {
   --tw-text-opacity: 1;
   color: rgb(247 54 91 / var(--tw-text-opacity));
