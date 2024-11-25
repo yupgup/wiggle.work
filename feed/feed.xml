@@ -4,12 +4,38 @@
 	<subtitle>A Discord community for remote tech workers.</subtitle>
 	<link href="https://wiggle.work/feed/feed.xml" rel="self"/>
 	<link href="https://wiggle.work/"/>
-	<updated>2024-10-28T00:00:00Z</updated>
+	<updated>2024-11-25T00:00:00Z</updated>
 	<id>https://wiggle.work/</id>
 	<author>
 		<name>Joni Trythall</name>
 		<email>joni@yupgup.com</email>
 	</author>
+	
+	<entry>
+		<title>Snail Mail Santa</title>
+		<link href="https://wiggle.work/blog/snail-mail-santa/"/>
+		<updated>2024-11-25T00:00:00Z</updated>
+		<id>https://wiggle.work/blog/snail-mail-santa/</id>
+		<content type="html">&lt;p&gt;It’s that time of year again! Last year we did a holiday sock exchange and this year we are going with thoughtful card exchanges—simple and effective.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://wiggle.work/img/YJU_lHg0ib-2200.webp 2200w&quot;&gt;&lt;img alt=&quot;Large, rough holiday themed icons&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://wiggle.work/img/YJU_lHg0ib-2200.png&quot; width=&quot;2200&quot; height=&quot;2200&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;After signing up through a form posted in the distraction-den channel, you’ll get emailed a name and address after the form closes on &lt;strong&gt;December 11th&lt;/strong&gt;. There’s no need to overthink these cards/notes/letters, as the spirit to this is to give and receive a few kind words, a laugh, a story, and just overall feel a bit more connected during what can be an especially isolating time of year.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Here’s a few ideas if you get stuck&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A funny story or weird lesson learned from this past year&lt;/li&gt;
+&lt;li&gt;A note of gratitude over something the person has said or done&lt;/li&gt;
+&lt;li&gt;A particularly big work win&lt;/li&gt;
+&lt;li&gt;Share an interesting fact you came across recently&lt;/li&gt;
+&lt;li&gt;Share a holiday tradition you are looking forward to&lt;/li&gt;
+&lt;li&gt;Share your 2025 goals and your dream project scenario&lt;/li&gt;
+&lt;li&gt;A side project idea you’re excited about&lt;/li&gt;
+&lt;li&gt;A bit about the most impactful book you read this year&lt;/li&gt;
+&lt;li&gt;Something you are looking forward to in 2025&lt;/li&gt;
+&lt;li&gt;General encouragement and well-wishes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I hope you’ll all consider signing up. I, for one, can’t wait to get some more positive, fun, wiggly mail out into the world.&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;https://mastodon.yupgup.com/@joni&quot;&gt;@Joni&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Monster Movies</title>
