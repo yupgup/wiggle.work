@@ -4,12 +4,35 @@
 	<subtitle>A Discord community for remote tech workers.</subtitle>
 	<link href="https://wiggle.work/feed/feed.xml" rel="self"/>
 	<link href="https://wiggle.work/"/>
-	<updated>2024-12-21T00:00:00Z</updated>
+	<updated>2025-01-02T00:00:00Z</updated>
 	<id>https://wiggle.work/</id>
 	<author>
 		<name>Joni Trythall</name>
 		<email>joni@yupgup.com</email>
 	</author>
+	
+	<entry>
+		<title>Writing Workshop, Week 1</title>
+		<link href="https://wiggle.work/blog/writing-workshop-week-1/"/>
+		<updated>2025-01-02T00:00:00Z</updated>
+		<id>https://wiggle.work/blog/writing-workshop-week-1/</id>
+		<content type="html">&lt;p&gt;January 1st marked the official kick off of our Winter Wednesdays Writing Workshop. Participants hang out in a special Discord channel and share ideas, offer help, and post our individual work amongst each other. You can find more details on the logistics &lt;a href=&quot;https://wiggle.work/blog/writing-workshop-2025/&quot;&gt;here&lt;/a&gt;. I was a bit nervous that a holiday would be a bad time to start a project like this, but everyone has been enthusiastic and positive—it’s actually been a great way to bring in a new year.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://wiggle.work/img/fyWaIuXRpw-2200.webp 2200w&quot;&gt;&lt;img alt=&quot;Writing Workshop Week 1 post screenshots&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://wiggle.work/img/fyWaIuXRpw-2200.png&quot; width=&quot;2200&quot; height=&quot;2200&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Each week I’ll be rounding up these special posts to share here on this blog—blogs within blogs! Here are the writing submissions for January 1, 2025, our first winter writing Wednesday:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nick Simson: &lt;a href=&quot;https://nicksimson.com/posts/2025-intention-economy/&quot;&gt;Intention economy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Amanda Kennedy: &lt;a href=&quot;https://strategicservicedesign.blot.im/welcome-to-strategic-service-design&quot;&gt;Welcome to Strategic Service Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shannon Crabill: &lt;a href=&quot;https://shannoncrabill.pika.page/posts/in-my-organizing-era&quot;&gt;In my organizing era&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Richard Terry: &lt;a href=&quot;https://radiac.net/blog/2025/01/corruption-of-python/&quot;&gt;The Corruption of Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Brian Rinaldi: &lt;a href=&quot;https://remotesynthesis.com/blog/2024-year-in-review/&quot;&gt;2024 Year In Review&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Triplett: &lt;a href=&quot;https://micro.webology.dev/2025/01/01/year-in-review-short-version.html&quot;&gt;Year in review (short version) - It was a good year&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sarah Gebauer: &lt;a href=&quot;https://www.sarahgebauer.com/post/drawn-data-viz-what-i-do-on-a-train/&quot;&gt;Drawn Data Viz: What I do on a train&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Joni Trythall: Crafting.Community &lt;a href=&quot;http://crafting.community/&quot;&gt;Intro, Note 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;WELL DONE&lt;/strong&gt; everyone. I can’t wait to read your new posts next week, and, as always, if you need anything at all we’ll be in &lt;code&gt;#writing-workshop&lt;/code&gt; 🧡&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;https://mastodon.yupgup.com/@joni&quot;&gt;@Joni&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Writing Workshop 2025</title>
