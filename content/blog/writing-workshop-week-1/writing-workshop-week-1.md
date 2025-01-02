@@ -22,6 +22,6 @@ Each week I’ll be rounding up these special posts to share here on this blog�
 - Sarah Gebauer: [Drawn Data Viz: What I do on a train](https://www.sarahgebauer.com/post/drawn-data-viz-what-i-do-on-a-train/)
 - Joni Trythall: Crafting.Community [Intro, Note 1](http://crafting.community/)
 
-**WELL DONE** everyone. I can’t wait to read your new posts next week, and, as always, if you need anything at all we’ll be in `#writing-workshop` 🧡
+**WELL DONE** everyone. I can’t wait to read your new posts next week, and, as always, if you need anything at all we’ll be in #writing-workshop 🧡
 
 —[@Joni](https://mastodon.yupgup.com/@joni)
