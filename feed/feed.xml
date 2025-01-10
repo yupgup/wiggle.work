@@ -4,12 +4,35 @@
 	<subtitle>A Discord community for remote tech workers.</subtitle>
 	<link href="https://wiggle.work/feed/feed.xml" rel="self"/>
 	<link href="https://wiggle.work/"/>
-	<updated>2025-01-02T00:00:00Z</updated>
+	<updated>2025-01-10T00:00:00Z</updated>
 	<id>https://wiggle.work/</id>
 	<author>
 		<name>Joni Trythall</name>
 		<email>joni@yupgup.com</email>
 	</author>
+	
+	<entry>
+		<title>Writing Workshop, Week 2</title>
+		<link href="https://wiggle.work/blog/writing-workshop-week-2/"/>
+		<updated>2025-01-10T00:00:00Z</updated>
+		<id>https://wiggle.work/blog/writing-workshop-week-2/</id>
+		<content type="html">&lt;p&gt;It’s week TWO of our winter writing workshop! While last week’s holiday brought some complications, this week brought many of us a massive snowstorm that closed down schools and work. Despite this, though, everyone pulled through, making adjustments where necessary. January is already proving to be fairly unforgiving for this type of project, but it’s comforting to be doing it amongst friends that are understanding and not afraid to share their concerns and struggles.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://wiggle.work/img/FvvmIX75iS-2200.webp 2200w&quot;&gt;&lt;img alt=&quot;Writing Workshop Week 2 post screenshots&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://wiggle.work/img/FvvmIX75iS-2200.png&quot; width=&quot;2200&quot; height=&quot;2200&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Wiggly week two group posts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brian Rinaldi: &lt;a href=&quot;https://remotesynthesis.com/blog/reviewing-2024-predictions/&quot;&gt;Grading my 2024 Predictions for Developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Richard Terry: &lt;a href=&quot;https://radiac.net/blog/2025/01/magical-metaclasses/&quot;&gt;Magical Metaclasses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nick Simson: &lt;a href=&quot;https://nicksimson.com/posts/2025-friction-and-resistance/&quot;&gt;Friction and resistance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sarah Gebauer: &lt;a href=&quot;https://www.sarahgebauer.com/post/drawn-data-viz-cats-revisited/&quot;&gt;Drawn Data viz - Cats, revisited&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shannon Crabill: &lt;a href=&quot;https://shannoncrabill.pika.page/posts/bullet-journaling&quot;&gt;Bullet Journaling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Triplett: &lt;a href=&quot;https://micro.webology.dev/2025/01/08/rethinking-djangos-commandline-tool-why/&quot;&gt;🤔 Rethinking Django&#39;s Command-Line Tool: Why We Should Rename &lt;code&gt;django-admin&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Amanda Kennedy: &lt;a href=&quot;https://strategicservicedesign.blot.im/want-to-grow-as-a-service-designer&quot;&gt;Want to Grow as a Service Designer?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Joni Trythall: Crafting.Community &lt;a href=&quot;http://crafting.community/#note-2-building&quot;&gt;Note 1: Building&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;WELL DONE&lt;/strong&gt; again, everyone. I can’t wait to read your new posts next week, and, as always, if you need anything at all we’ll be in #writing-workshop 🧡&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;https://mastodon.yupgup.com/@joni&quot;&gt;@Joni&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Writing Workshop, Week 1</title>
