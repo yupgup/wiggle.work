@@ -20,7 +20,7 @@ Wiggly week two group posts:
 - Shannon Crabill: [Bullet Journaling](https://shannoncrabill.pika.page/posts/bullet-journaling)
 - Jeff Triplett: [🤔 Rethinking Django's Command-Line Tool: Why We Should Rename `django-admin`](https://micro.webology.dev/2025/01/08/rethinking-djangos-commandline-tool-why/) 
 - Amanda Kennedy: [Want to Grow as a Service Designer?](https://strategicservicedesign.blot.im/want-to-grow-as-a-service-designer) 
-- Joni Trythall: Crafting.Community [Note 1: Building](http://crafting.community/#note-2-building)
+- Joni Trythall: Crafting.Community [Note 2: Building](http://crafting.community/#note-2-building)
 
 **WELL DONE** again, everyone. I can’t wait to read your new posts next week, and, as always, if you need anything at all we’ll be in #writing-workshop 🧡
 
