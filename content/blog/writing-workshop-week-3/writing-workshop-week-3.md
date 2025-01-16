@@ -19,6 +19,7 @@ Wiggly week three group posts:
 - Jeff Triplett: [Email, Calendars, and the Chaos of Modern Workflows](https://micro.webology.dev/2025/01/15/email-calendars-and-the-chaos/) 
 - Amanda Kennedy: [A landscape analysis of my service design bookshelf](https://strategicservicedesign.blot.im/a-landscape-analysis-of-my-service-design-bookshelf)
 - Sarah Gebauer: [Drawn Data viz - Where I've been in '24](https://www.sarahgebauer.com/post/drawn-data-viz-where-ive-been-in-24/)
+- Shannon Crabill: [Cheatsheet](https://shannoncrabill.pika.page/posts/cheatsheet)
 - Joni Trythall: [Five Community Building Books](https://jonitrythall.com/five-community-building-books) 
 
 **WELL DONE** again, everyone. See you in #writing-workshop 🧡
