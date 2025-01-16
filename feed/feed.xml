@@ -4,12 +4,34 @@
 	<subtitle>A Discord community for remote tech workers.</subtitle>
 	<link href="https://wiggle.work/feed/feed.xml" rel="self"/>
 	<link href="https://wiggle.work/"/>
-	<updated>2025-01-10T00:00:00Z</updated>
+	<updated>2025-01-16T00:00:00Z</updated>
 	<id>https://wiggle.work/</id>
 	<author>
 		<name>Joni Trythall</name>
 		<email>joni@yupgup.com</email>
 	</author>
+	
+	<entry>
+		<title>Writing Workshop, Week 3</title>
+		<link href="https://wiggle.work/blog/writing-workshop-week-3/"/>
+		<updated>2025-01-16T00:00:00Z</updated>
+		<id>https://wiggle.work/blog/writing-workshop-week-3/</id>
+		<content type="html">&lt;p&gt;It’s week THREE of our winter writing workshop, which officially means we are more than halfway through it! Some lessons learned this week include: taking a blog post pic before writing can help energize the writing process, and writing within the constraints of a theme can be especially challenging since it won’t always be where your head is at.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://wiggle.work/img/JCOw4t0OXW-2200.webp 2200w&quot;&gt;&lt;img alt=&quot;Writing Workshop Week 3 post screenshots&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://wiggle.work/img/JCOw4t0OXW-2200.png&quot; width=&quot;2200&quot; height=&quot;2200&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Wiggly week three group posts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Richard Terry: &lt;a href=&quot;https://radiac.net/blog/2025/01/monkeypatching-django/&quot;&gt;Monkeypatching Django&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Brian Rinaldi: &lt;a href=&quot;https://remotesynthesis.com/blog/2025-predictions-for-tech/&quot;&gt;My Predictions for Tech in 2025: Chaos Reigns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nick Simson: &lt;a href=&quot;https://nicksimson.com/posts/2025-the-last-web-designer-on-earth/&quot;&gt;The last web designer on earth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Triplett: &lt;a href=&quot;https://micro.webology.dev/2025/01/15/email-calendars-and-the-chaos/&quot;&gt;Email, Calendars, and the Chaos of Modern Workflows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Amanda Kennedy: &lt;a href=&quot;https://strategicservicedesign.blot.im/a-landscape-analysis-of-my-service-design-bookshelf&quot;&gt;A landscape analysis of my service design bookshelf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sarah Gebauer: &lt;a href=&quot;https://www.sarahgebauer.com/post/drawn-data-viz-where-ive-been-in-24/&quot;&gt;Drawn Data viz - Where I&#39;ve been in &#39;24&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Joni Trythall: &lt;a href=&quot;https://jonitrythall.com/five-community-building-books&quot;&gt;Five Community Building Books&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;WELL DONE&lt;/strong&gt; again, everyone. See you in #writing-workshop 🧡&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;https://mastodon.yupgup.com/@joni&quot;&gt;@Joni&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Writing Workshop, Week 2</title>
