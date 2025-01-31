@@ -4,12 +4,41 @@
 	<subtitle>A Discord community for remote tech workers.</subtitle>
 	<link href="https://wiggle.work/feed/feed.xml" rel="self"/>
 	<link href="https://wiggle.work/"/>
-	<updated>2025-01-16T00:00:00Z</updated>
+	<updated>2025-01-31T00:00:00Z</updated>
 	<id>https://wiggle.work/</id>
 	<author>
 		<name>Joni Trythall</name>
 		<email>joni@yupgup.com</email>
 	</author>
+	
+	<entry>
+		<title>Writing Workshop, Week 4 and 5</title>
+		<link href="https://wiggle.work/blog/writing-workshop-week-4-5/"/>
+		<updated>2025-01-31T00:00:00Z</updated>
+		<id>https://wiggle.work/blog/writing-workshop-week-4-5/</id>
+		<content type="html">&lt;p&gt;We recently tackled our final two weeks of publishing for January&#39;s writing workshop!&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://wiggle.work/img/QzTw4G1CP0-2200.webp 2200w&quot;&gt;&lt;img alt=&quot;Writing Workshop Week 4 and 5 post screenshots&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://wiggle.work/img/QzTw4G1CP0-2200.png&quot; width=&quot;2200&quot; height=&quot;2200&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h2&gt;Wiggly week four group posts:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sarah Gebauer: &lt;a href=&quot;https://www.sarahgebauer.com/post/drawn-data-viz-upcoming-elections-of-interest/&quot;&gt;Drawn Data Viz - Upcoming elections of interest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Triplett: &lt;a href=&quot;https://micro.webology.dev/2025/01/22/python-click-djangoclick-and-typer/&quot;&gt;Python Click, django-click, and Typer notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nick Simson: &lt;a href=&quot;https://nicksimson.com/posts/2025-choose-inclusion/&quot;&gt;Choose inclusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Joni Trythall: &lt;a href=&quot;https://jonitrythall.com/remote-work-loneliness&quot;&gt;Remote Work and Loneliness&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Wiggly week five group posts:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Shannon Crabill: &lt;a href=&quot;https://shannoncrabill.pika.page/posts/creative-questions-challenge&quot;&gt;Creative Questions Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Brian Rinaldi: &lt;a href=&quot;https://remotesynthesis.com/blog/bizarro-world/&quot;&gt;Living and Working in a Bizarro World&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nick Simson: &lt;a href=&quot;https://nicksimson.com/posts/2025-creative-corners/&quot;&gt;Creative corners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jeff Triplett: &lt;a href=&quot;https://micro.webology.dev/2025/01/29/my-big-list-of-aillm/&quot;&gt;🤖 My big list of AI/LLM tools, notes, and how I&#39;m using them&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sarah Gebauer: &lt;a href=&quot;https://www.sarahgebauer.com/post/drawn-data-viz-cruel-joke/&quot;&gt;Drawn Data viz - Cruel joke&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Joni Trythall: &lt;a href=&quot;https://jonitrythall.com/more-to-say&quot;&gt;More to Say&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;WELL DONE&lt;/strong&gt; everyone! This was very, very challenging. We get a lot of unexpected life and work stuff pop up in the best of times, but this month was especially taxing for so many. It was so enjoyable to read along with everyone’s posts and have a group to share struggles with.&lt;/p&gt;
+&lt;p&gt;A few takeaways for me are that January is a truly terrible month to commit to something like this, and publishing weekly over a specific day would be much more reasonable. I also found writing for a month around a single theme was not doable, as it would sometimes feel forced. When I let myself write where my head was at, things fell into place nicely. I get so much joy and fulfillment when writing and definitely feel inspired to publish more in 2025 and will continue hanging out in the writing-workshop channel—I hope to see you there still 🧡&lt;/p&gt;
+&lt;p&gt;—&lt;a href=&quot;https://mastodon.yupgup.com/@joni&quot;&gt;@Joni&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Writing Workshop, Week 3</title>
